@@ -12,3 +12,6 @@ Parcial final PLN 2026-S02. Corpus: 102 FDS de pinturas (2018-2025).
 - [ ] A7 Informe y documentación
 
 Hardware y versiones: ver docs/entorno_A0.txt
+
+## Nota sobre el corpus
+El ZIP suministrado (FDS_EVALUADAS.zip) contiene **101 PDF**. La numeración va de FDS 1 a FDS 102, pero el **FDS 12 no existe en el ZIP original** (verificado con `unzip -l`). No es un fallo de extracción: el corpus de trabajo es de 101 documentos.
