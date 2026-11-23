@@ -18,3 +18,6 @@ El ZIP suministrado (FDS_EVALUADAS.zip) contiene **101 PDF**. La numeración va 
 
 ## Nota sobre el corpus
 El ZIP suministrado (FDS_EVALUADAS.zip) contiene **101 PDF**. La numeración va de FDS 1 a FDS 102, pero el **FDS 12 no existe en el ZIP original** (verificado con `unzip -l`). No es un fallo de extracción: el corpus de trabajo es de 101 documentos.
+
+## Nota sobre el corpus
+El ZIP suministrado (FDS_EVALUADAS.zip) contiene **101 PDF**. La numeración va de FDS 1 a FDS 102, pero el **FDS 12 no existe en el ZIP original** (verificado con `unzip -l`). No es un fallo de extracción: el corpus de trabajo es de 101 documentos.
