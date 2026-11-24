@@ -1,0 +1,228 @@
+{
+ "id": "FDS_048",
+ "num": 48,
+ "archivo": "FDS 48 - PITT-CHAR XP BASE WHITE - PPG.pdf",
+ "ruta_pdf": "data/raw_pdfs/FDS EVALUADAS/FDS 2021/FDS 48 - PITT-CHAR XP BASE WHITE - PPG.pdf",
+ "sha256_pdf": "f9f10166ceb12ebaa3ddcd94b9f80d234b3b91be042f2f61a7004bad4665ebf2",
+ "fabricante": "PPG",
+ "fabricante_fuente": "linea_etiquetada",
+ "fabricante_linea": "PPG Industries Colombia Ltda",
+ "fabricante_discrepa": false,
+ "producto_archivo": "PITT-CHAR XP BASE WHITE - PPG",
+ "version_archivo": null,
+ "version_texto": "5",
+ "fecha_emision": "28 Julio 2021",
+ "fecha_revision": null,
+ "fecha_actualizacion": null,
+ "doc_numero": null,
+ "anio_carpeta": "2021",
+ "paginas_pdf": 15,
+ "extractor": {
+  "herramienta": "docling",
+  "docling": "2.152.0",
+  "do_ocr": false,
+  "tablas": true,
+  "imagenes_escala": 2.0
+ },
+ "generado": "2026-11-24T14:13:32",
+ "tiempo_s": 94.4,
+ "md": "FDS_048.md",
+ "secciones": [
+  {
+   "seccion": 1,
+   "titulo": "## Sección 1. Identificación del producto y la compañía",
+   "linea": 7,
+   "pag_ini": 1,
+   "pag_fin": 1
+  },
+  {
+   "seccion": 2,
+   "titulo": "## Sección 2. Identificación de los peligros",
+   "linea": 51,
+   "pag_ini": 1,
+   "pag_fin": 2
+  },
+  {
+   "seccion": 3,
+   "titulo": "## Sección 3. Composición / información sobre los componentes",
+   "linea": 117,
+   "pag_ini": 2,
+   "pag_fin": 3
+  },
+  {
+   "seccion": 4,
+   "titulo": "## Sección 4. Primeros auxilios",
+   "linea": 157,
+   "pag_ini": 3,
+   "pag_fin": 4
+  },
+  {
+   "seccion": 5,
+   "titulo": "## Sección 5. Medidas contra incendios",
+   "linea": 211,
+   "pag_ini": 4,
+   "pag_fin": 4
+  },
+  {
+   "seccion": 6,
+   "titulo": "## Sección 6. Medidas que deben tomarse en caso de derrame o fuga accidental",
+   "linea": 222,
+   "pag_ini": 4,
+   "pag_fin": 5
+  },
+  {
+   "seccion": 7,
+   "titulo": "## Sección 7. Manejo y almacenamiento",
+   "linea": 246,
+   "pag_ini": 5,
+   "pag_fin": 6
+  },
+  {
+   "seccion": 8,
+   "titulo": "## Sección 8. Controles de exposición / protección personal",
+   "linea": 259,
+   "pag_ini": 6,
+   "pag_fin": 7
+  },
+  {
+   "seccion": 9,
+   "titulo": "## Sección 9. Propiedades físicas y químicas",
+   "linea": 291,
+   "pag_ini": 7,
+   "pag_fin": 8
+  },
+  {
+   "seccion": 10,
+   "titulo": "## Sección 10. Estabilidad y reactividad",
+   "linea": 384,
+   "pag_ini": 8,
+   "pag_fin": 8
+  },
+  {
+   "seccion": 11,
+   "titulo": "## Sección 11. Información toxicológica",
+   "linea": 394,
+   "pag_ini": 8,
+   "pag_fin": 12
+  },
+  {
+   "seccion": 12,
+   "titulo": "## Sección 12. Información ecotoxicológica",
+   "linea": 651,
+   "pag_ini": 12,
+   "pag_fin": 13
+  },
+  {
+   "seccion": 13,
+   "titulo": "## Sección 13. Información relativa a la eliminación de los productos",
+   "linea": 695,
+   "pag_ini": 13,
+   "pag_fin": 13
+  },
+  {
+   "seccion": 14,
+   "titulo": "## Sección 14. Información relativa al transporte",
+   "linea": 701,
+   "pag_ini": 13,
+   "pag_fin": 14
+  },
+  {
+   "seccion": 15,
+   "titulo": "## Sección 15. Información Reglamentaria",
+   "linea": 749,
+   "pag_ini": 14,
+   "pag_fin": 14
+  },
+  {
+   "seccion": 16,
+   "titulo": "## Sección 16. Otra informaciones",
+   "linea": 755,
+   "pag_ini": 14,
+   "pag_fin": 15
+  }
+ ],
+ "estados": {
+  "1": "OK",
+  "2": "OK",
+  "3": "OK",
+  "4": "OK",
+  "5": "OK",
+  "6": "OK",
+  "7": "OK",
+  "8": "OK",
+  "9": "OK",
+  "10": "OK",
+  "11": "OK",
+  "12": "OK",
+  "13": "OK",
+  "14": "OK",
+  "15": "OK",
+  "16": "OK"
+ },
+ "imagenes": [
+  {
+   "archivo": "img/image_000000_39440a5d369e2e9d3f7d12979e2aa2c18c4ec8b440dc382e79b1bf7af400be59.png",
+   "sha16": "7db741be036e79a5",
+   "ancho": 135,
+   "alto": 105,
+   "repeticiones": 1,
+   "paginas": [
+    1
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000001_3e62f0798466dfdffad3d73697be2354e37c044212c979a18c197e2f3afa69e1.png",
+   "sha16": "daec129af0211e6b",
+   "ancho": 97,
+   "alto": 96,
+   "repeticiones": 1,
+   "paginas": [
+    2
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000002_de820ff39b3db2a0be36c378860be3defc271772e41a1eef7b2ae8b623b52035.png",
+   "sha16": "8dab50ba090cfea9",
+   "ancho": 98,
+   "alto": 97,
+   "repeticiones": 1,
+   "paginas": [
+    2
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000003_5a271aff580bf3828b3c87239d75de44fdb444aa664f2ffc5012f771d69c1ec4.png",
+   "sha16": "e98a4444a4a2a879",
+   "ancho": 99,
+   "alto": 98,
+   "repeticiones": 1,
+   "paginas": [
+    2
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000004_9c9bcc79c9a84d0a36949ba5285785a56b0f2087d63ca37f95f396bfa56c1270.png",
+   "sha16": "357dcfc5d782fbaf",
+   "ancho": 21,
+   "alto": 22,
+   "repeticiones": 1,
+   "paginas": [
+    15
+   ],
+   "decorativa_probable": true
+  }
+ ],
+ "qa": {
+  "paginas_pdf": 15,
+  "paginas_md": 15,
+  "marcas_pagina": true,
+  "paginas_coinciden": true,
+  "filas_tabla_fusionadas": 0,
+  "imagenes_unicas": 5,
+  "imagenes_decorativas_prob": 1
+ }
+}

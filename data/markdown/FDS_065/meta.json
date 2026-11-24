@@ -1,0 +1,239 @@
+{
+ "id": "FDS_065",
+ "num": 65,
+ "archivo": "FDS 65 - SIGMADUR ONE BUFF 3142 - PPG.pdf",
+ "ruta_pdf": "data/raw_pdfs/FDS EVALUADAS/FDS 2022/FDS 65 - SIGMADUR ONE BUFF 3142 - PPG.pdf",
+ "sha256_pdf": "ab94a98c4a348d0337d4ad89e370995e19b0e2833bfa8b3cd149cb2bdb4eaea7",
+ "fabricante": "PPG",
+ "fabricante_fuente": "linea_etiquetada",
+ "fabricante_linea": "PPG Industries Colombia Ltda",
+ "fabricante_discrepa": false,
+ "producto_archivo": "SIGMADUR ONE BUFF 3142 - PPG",
+ "version_archivo": null,
+ "version_texto": "8",
+ "fecha_emision": "1 Marzo 2022",
+ "fecha_revision": null,
+ "fecha_actualizacion": null,
+ "doc_numero": null,
+ "anio_carpeta": "2022",
+ "paginas_pdf": 15,
+ "extractor": {
+  "herramienta": "docling",
+  "docling": "2.152.0",
+  "do_ocr": false,
+  "tablas": true,
+  "imagenes_escala": 2.0
+ },
+ "generado": "2026-11-24T14:41:43",
+ "tiempo_s": 93.8,
+ "md": "FDS_065.md",
+ "secciones": [
+  {
+   "seccion": 1,
+   "titulo": "## Sección 1. Identificación del producto y la compañía",
+   "linea": 7,
+   "pag_ini": 1,
+   "pag_fin": 1
+  },
+  {
+   "seccion": 2,
+   "titulo": "## Sección 2. Identificación de los peligros",
+   "linea": 53,
+   "pag_ini": 1,
+   "pag_fin": 3
+  },
+  {
+   "seccion": 3,
+   "titulo": "## Sección 3. Composición / información sobre los componentes",
+   "linea": 142,
+   "pag_ini": 3,
+   "pag_fin": 3
+  },
+  {
+   "seccion": 4,
+   "titulo": "## Sección 4. Primeros auxilios",
+   "linea": 179,
+   "pag_ini": 3,
+   "pag_fin": 4
+  },
+  {
+   "seccion": 5,
+   "titulo": "## Sección 5. Medidas contra incendios",
+   "linea": 233,
+   "pag_ini": 4,
+   "pag_fin": 5
+  },
+  {
+   "seccion": 6,
+   "titulo": "## Sección 6. Medidas que deben tomarse en caso de derrame o fuga accidental",
+   "linea": 250,
+   "pag_ini": 5,
+   "pag_fin": 5
+  },
+  {
+   "seccion": 7,
+   "titulo": "## Sección 7. Manejo y almacenamiento",
+   "linea": 276,
+   "pag_ini": 5,
+   "pag_fin": 6
+  },
+  {
+   "seccion": 8,
+   "titulo": "## Sección 8. Controles de exposición / protección personal",
+   "linea": 299,
+   "pag_ini": 6,
+   "pag_fin": 8
+  },
+  {
+   "seccion": 9,
+   "titulo": "## Sección 9. Propiedades físicas y químicas",
+   "linea": 350,
+   "pag_ini": 8,
+   "pag_fin": 8
+  },
+  {
+   "seccion": 10,
+   "titulo": "## Sección 10. Estabilidad y reactividad",
+   "linea": 432,
+   "pag_ini": 8,
+   "pag_fin": 9
+  },
+  {
+   "seccion": 11,
+   "titulo": "## Sección 11. Información toxicológica",
+   "linea": 465,
+   "pag_ini": 9,
+   "pag_fin": 13
+  },
+  {
+   "seccion": 12,
+   "titulo": "## Sección 12. Información ecotoxicológica",
+   "linea": 738,
+   "pag_ini": 13,
+   "pag_fin": 14
+  },
+  {
+   "seccion": 13,
+   "titulo": "## Sección 13. Información relativa a la eliminación de los productos",
+   "linea": 784,
+   "pag_ini": 14,
+   "pag_fin": 14
+  },
+  {
+   "seccion": 14,
+   "titulo": "## Sección 14. Información relativa al transporte",
+   "linea": 790,
+   "pag_ini": 14,
+   "pag_fin": 15
+  },
+  {
+   "seccion": 15,
+   "titulo": "## Sección 15. Información Reglamentaria",
+   "linea": 842,
+   "pag_ini": 15,
+   "pag_fin": 15
+  },
+  {
+   "seccion": 16,
+   "titulo": "## Sección 16. Otra informaciones",
+   "linea": 848,
+   "pag_ini": 15,
+   "pag_fin": 15
+  }
+ ],
+ "estados": {
+  "1": "OK",
+  "2": "OK",
+  "3": "OK",
+  "4": "OK",
+  "5": "OK",
+  "6": "OK",
+  "7": "OK",
+  "8": "OK",
+  "9": "OK",
+  "10": "OK",
+  "11": "OK",
+  "12": "OK",
+  "13": "OK",
+  "14": "OK",
+  "15": "OK",
+  "16": "OK"
+ },
+ "imagenes": [
+  {
+   "archivo": "img/image_000000_39440a5d369e2e9d3f7d12979e2aa2c18c4ec8b440dc382e79b1bf7af400be59.png",
+   "sha16": "7db741be036e79a5",
+   "ancho": 135,
+   "alto": 105,
+   "repeticiones": 1,
+   "paginas": [
+    1
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000001_4e29d184ee6f401e64e2e7f3d284cf4537b98e6b455a379b7f5d7ac233151e64.png",
+   "sha16": "6ea962a55a329778",
+   "ancho": 100,
+   "alto": 103,
+   "repeticiones": 1,
+   "paginas": [
+    2
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000002_6f26ba5443c4b304094ad0ca87bf24f23ef8d1afb3f6adabe6f4b52106e5b9bc.png",
+   "sha16": "2f8dd1de21e8df38",
+   "ancho": 99,
+   "alto": 97,
+   "repeticiones": 1,
+   "paginas": [
+    2
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000003_c30d8d7f29a67475f2d9a04c284a6d6e58f6239c915dd17d90caa121780c9f5d.png",
+   "sha16": "c0cec9c9c32d2ce9",
+   "ancho": 98,
+   "alto": 97,
+   "repeticiones": 1,
+   "paginas": [
+    2
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000004_14876588768c133c820cde86f38513003f772654df30ea4153570f7899bb7a70.png",
+   "sha16": "95bdeddd31a07092",
+   "ancho": 24,
+   "alto": 23,
+   "repeticiones": 1,
+   "paginas": [
+    10
+   ],
+   "decorativa_probable": true
+  },
+  {
+   "archivo": "img/image_000005_b61de20fc6972060baa310a0050df32755b926cf77a441836169822d9a89790b.png",
+   "sha16": "9e18c4bdd00016fa",
+   "ancho": 21,
+   "alto": 23,
+   "repeticiones": 1,
+   "paginas": [
+    15
+   ],
+   "decorativa_probable": true
+  }
+ ],
+ "qa": {
+  "paginas_pdf": 15,
+  "paginas_md": 15,
+  "marcas_pagina": true,
+  "paginas_coinciden": true,
+  "filas_tabla_fusionadas": 0,
+  "imagenes_unicas": 6,
+  "imagenes_decorativas_prob": 2
+ }
+}

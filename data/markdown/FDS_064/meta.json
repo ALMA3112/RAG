@@ -1,0 +1,206 @@
+{
+ "id": "FDS_064",
+ "num": 64,
+ "archivo": "FDS 64 - DIMETCOTE 9 SERIES POWDER (PINTURA DE SILICATO DE ZINC) - PPG.pdf",
+ "ruta_pdf": "data/raw_pdfs/FDS EVALUADAS/FDS 2022/FDS 64 - DIMETCOTE 9 SERIES POWDER (PINTURA DE SILICATO DE ZINC) - PPG.pdf",
+ "sha256_pdf": "921c7655dffbe84ff5a66fc3ca6967ed66997d9007cc222d9afc2a5fae074343",
+ "fabricante": "PPG",
+ "fabricante_fuente": "linea_etiquetada",
+ "fabricante_linea": "PPG Industries Colombia Ltda",
+ "fabricante_discrepa": false,
+ "producto_archivo": "DIMETCOTE 9 SERIES POWDER (PINTURA DE SILICATO DE ZINC) - PPG",
+ "version_archivo": null,
+ "version_texto": "3.05",
+ "fecha_emision": "14 Febrero 2022",
+ "fecha_revision": null,
+ "fecha_actualizacion": null,
+ "doc_numero": null,
+ "anio_carpeta": "2022",
+ "paginas_pdf": 12,
+ "extractor": {
+  "herramienta": "docling",
+  "docling": "2.152.0",
+  "do_ocr": false,
+  "tablas": true,
+  "imagenes_escala": 2.0
+ },
+ "generado": "2026-11-24T14:40:09",
+ "tiempo_s": 52.9,
+ "md": "FDS_064.md",
+ "secciones": [
+  {
+   "seccion": 1,
+   "titulo": "## Sección 1. Identificación del producto y la compañía",
+   "linea": 7,
+   "pag_ini": 1,
+   "pag_fin": 1
+  },
+  {
+   "seccion": 2,
+   "titulo": "## Sección 2. Identificación de los peligros",
+   "linea": 51,
+   "pag_ini": 1,
+   "pag_fin": 2
+  },
+  {
+   "seccion": 3,
+   "titulo": "## Sección 3. Composición / información sobre los componentes",
+   "linea": 105,
+   "pag_ini": 2,
+   "pag_fin": 2
+  },
+  {
+   "seccion": 4,
+   "titulo": "## Sección 4. Primeros auxilios",
+   "linea": 130,
+   "pag_ini": 2,
+   "pag_fin": 3
+  },
+  {
+   "seccion": 5,
+   "titulo": "## Sección 5. Medidas contra incendios",
+   "linea": 191,
+   "pag_ini": 3,
+   "pag_fin": 4
+  },
+  {
+   "seccion": 6,
+   "titulo": "## Sección 6. Medidas que deben tomarse en caso de derrame o fuga accidental",
+   "linea": 209,
+   "pag_ini": 4,
+   "pag_fin": 4
+  },
+  {
+   "seccion": 7,
+   "titulo": "## Sección 7. Manejo y almacenamiento",
+   "linea": 235,
+   "pag_ini": 4,
+   "pag_fin": 5
+  },
+  {
+   "seccion": 8,
+   "titulo": "## Sección 8. Controles de exposición / protección personal",
+   "linea": 256,
+   "pag_ini": 5,
+   "pag_fin": 6
+  },
+  {
+   "seccion": 9,
+   "titulo": "## Sección 9. Propiedades físicas y químicas",
+   "linea": 284,
+   "pag_ini": 6,
+   "pag_fin": 7
+  },
+  {
+   "seccion": 10,
+   "titulo": "## Sección 10. Estabilidad y reactividad",
+   "linea": 373,
+   "pag_ini": 7,
+   "pag_fin": 7
+  },
+  {
+   "seccion": 11,
+   "titulo": "## Sección 11. Información toxicológica",
+   "linea": 395,
+   "pag_ini": 7,
+   "pag_fin": 10
+  },
+  {
+   "seccion": 12,
+   "titulo": "## Sección 12. Información ecotoxicológica",
+   "linea": 597,
+   "pag_ini": 10,
+   "pag_fin": 10
+  },
+  {
+   "seccion": 13,
+   "titulo": "## Sección 13. Información relativa a la eliminación de los productos",
+   "linea": 627,
+   "pag_ini": 10,
+   "pag_fin": 10
+  },
+  {
+   "seccion": 14,
+   "titulo": "## Sección 14. Información relativa al transporte",
+   "linea": 633,
+   "pag_ini": 10,
+   "pag_fin": 12
+  },
+  {
+   "seccion": 15,
+   "titulo": "## Sección 15. Información Reglamentaria",
+   "linea": 685,
+   "pag_ini": 12,
+   "pag_fin": 12
+  },
+  {
+   "seccion": 16,
+   "titulo": "## Sección 16. Otra informaciones",
+   "linea": 691,
+   "pag_ini": 12,
+   "pag_fin": 12
+  }
+ ],
+ "estados": {
+  "1": "OK",
+  "2": "OK",
+  "3": "OK",
+  "4": "OK",
+  "5": "OK",
+  "6": "OK",
+  "7": "OK",
+  "8": "OK",
+  "9": "OK",
+  "10": "OK",
+  "11": "OK",
+  "12": "OK",
+  "13": "OK",
+  "14": "OK",
+  "15": "OK",
+  "16": "OK"
+ },
+ "imagenes": [
+  {
+   "archivo": "img/image_000000_39440a5d369e2e9d3f7d12979e2aa2c18c4ec8b440dc382e79b1bf7af400be59.png",
+   "sha16": "7db741be036e79a5",
+   "ancho": 135,
+   "alto": 105,
+   "repeticiones": 1,
+   "paginas": [
+    1
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000001_ec23cdccb228305c09f82509a06119e58074b505c13388cd0200611f9695e1b0.png",
+   "sha16": "6e43ade2c5d721b4",
+   "ancho": 98,
+   "alto": 98,
+   "repeticiones": 1,
+   "paginas": [
+    2
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000002_0050886bb3ee306c8eb31b89f52eb8f873be8f00eb6cc64a1a584e9e711150ff.png",
+   "sha16": "55bf5302d8868f75",
+   "ancho": 21,
+   "alto": 23,
+   "repeticiones": 1,
+   "paginas": [
+    12
+   ],
+   "decorativa_probable": true
+  }
+ ],
+ "qa": {
+  "paginas_pdf": 12,
+  "paginas_md": 12,
+  "marcas_pagina": true,
+  "paginas_coinciden": true,
+  "filas_tabla_fusionadas": 0,
+  "imagenes_unicas": 3,
+  "imagenes_decorativas_prob": 1
+ }
+}

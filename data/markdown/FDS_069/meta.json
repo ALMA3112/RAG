@@ -1,0 +1,261 @@
+{
+ "id": "FDS_069",
+ "num": 69,
+ "archivo": "FDS 69 - Esmalte Uretano Part A - SIKA.pdf",
+ "ruta_pdf": "data/raw_pdfs/FDS EVALUADAS/FDS 2023/FDS 69 - Esmalte Uretano Part A - SIKA.pdf",
+ "sha256_pdf": "f7a997d57781de1971f59358f5dbb382eadbb13ec296cde3975695c078e73e36",
+ "fabricante": "Sika",
+ "fabricante_fuente": "nombre_archivo",
+ "fabricante_linea": "O FABRICANTE",
+ "fabricante_discrepa": false,
+ "producto_archivo": "Esmalte Uretano Part A - SIKA",
+ "version_archivo": null,
+ "version_texto": "4.0",
+ "fecha_emision": null,
+ "fecha_revision": "2023/09/30",
+ "fecha_actualizacion": null,
+ "doc_numero": "000000613420",
+ "anio_carpeta": "2023",
+ "paginas_pdf": 13,
+ "extractor": {
+  "herramienta": "docling",
+  "docling": "2.152.0",
+  "do_ocr": false,
+  "tablas": true,
+  "imagenes_escala": 2.0
+ },
+ "generado": "2026-11-24T14:48:07",
+ "tiempo_s": 59.0,
+ "md": "FDS_069.md",
+ "secciones": [
+  {
+   "seccion": 1,
+   "titulo": "## SECCIÓN 1. IDENTIFICACIÓN DE LA SUSTANCIA QUÍMICA PELIGROSA O MEZCLA Y DEL PROVEEDOR O FABRICANTE",
+   "linea": 13,
+   "pag_ini": 1,
+   "pag_fin": 1
+  },
+  {
+   "seccion": 2,
+   "titulo": "## SECCIÓN 2. IDENTIFICACIÓN DE LOS PELIGROS",
+   "linea": 49,
+   "pag_ini": 1,
+   "pag_fin": 3
+  },
+  {
+   "seccion": 3,
+   "titulo": "## SECCIÓN 3. COMPOSICIÓN/INFORMACIÓN SOBRE LOS INGREDIENTES",
+   "linea": 163,
+   "pag_ini": 3,
+   "pag_fin": 3
+  },
+  {
+   "seccion": 4,
+   "titulo": "## SECCIÓN 4. PRIMEROS AUXILIOS",
+   "linea": 185,
+   "pag_ini": 3,
+   "pag_fin": 4
+  },
+  {
+   "seccion": 5,
+   "titulo": "## SECCIÓN 5. MEDIDAS CONTRA INCENDIOS",
+   "linea": 213,
+   "pag_ini": 4,
+   "pag_fin": 5
+  },
+  {
+   "seccion": 6,
+   "titulo": "## SECCIÓN 6. MEDIDAS QUE DEBEN TOMARSE EN CASO DE DERRAME ACCIDENTAL O FUGA ACCIDENTAL",
+   "linea": 264,
+   "pag_ini": 5,
+   "pag_fin": 5
+  },
+  {
+   "seccion": 7,
+   "titulo": "## SECCIÓN 7. MANEJO Y ALMACENAMIENTO",
+   "linea": 280,
+   "pag_ini": 5,
+   "pag_fin": 6
+  },
+  {
+   "seccion": 8,
+   "titulo": "## SECCIÓN 8. CONTROLES DE EXPOSICIÓN/PROTECCIÓN PERSONAL",
+   "linea": 310,
+   "pag_ini": 6,
+   "pag_fin": 7
+  },
+  {
+   "seccion": 9,
+   "titulo": "## SECCIÓN 9. PROPIEDADES FÍSICAS Y QUÍMICAS",
+   "linea": 360,
+   "pag_ini": 7,
+   "pag_fin": 8
+  },
+  {
+   "seccion": 10,
+   "titulo": "## SECCIÓN 10. ESTABILIDAD Y REACTIVIDAD",
+   "linea": 452,
+   "pag_ini": 8,
+   "pag_fin": 8
+  },
+  {
+   "seccion": 11,
+   "titulo": "## SECCIÓN 11. INFORMACIÓN TOXICOLÓGICA",
+   "linea": 476,
+   "pag_ini": 8,
+   "pag_fin": 10
+  },
+  {
+   "seccion": 12,
+   "titulo": "## SECCIÓN 12. INFORMACIÓN ECOTOXICOLOGICA",
+   "linea": 640,
+   "pag_ini": 10,
+   "pag_fin": 11
+  },
+  {
+   "seccion": 13,
+   "titulo": "## SECCIÓN 13. INFORMACIÓN RELATIVA A LA ELIMINACIÓN DE LOS PRODUCTOS",
+   "linea": 755,
+   "pag_ini": 11,
+   "pag_fin": 11
+  },
+  {
+   "seccion": 14,
+   "titulo": "## SECCIÓN 14. INFORMACIÓN RELATIVA AL TRANSPORTE",
+   "linea": 777,
+   "pag_ini": 11,
+   "pag_fin": 12
+  },
+  {
+   "seccion": 15,
+   "titulo": "## SECCIÓN 15. INFORMACIÓN REGLAMENTARIA",
+   "linea": 906,
+   "pag_ini": 12,
+   "pag_fin": 12
+  },
+  {
+   "seccion": 16,
+   "titulo": "## SECCIÓN 16. OTRA INFORMACIÓN INCLUIDAS LAS RELATIVAS A LA PREPARACIÓN Y ACTUALIZACIÓN DE LAS HOJAS DE DATOS DE SEGURI",
+   "linea": 938,
+   "pag_ini": 12,
+   "pag_fin": 13
+  }
+ ],
+ "estados": {
+  "1": "OK",
+  "2": "OK",
+  "3": "OK",
+  "4": "OK",
+  "5": "OK",
+  "6": "OK",
+  "7": "OK",
+  "8": "OK",
+  "9": "OK",
+  "10": "OK",
+  "11": "OK",
+  "12": "OK",
+  "13": "OK",
+  "14": "OK",
+  "15": "OK",
+  "16": "OK"
+ },
+ "imagenes": [
+  {
+   "archivo": "img/image_000000_ae8b0a562800646e62e84ce224f584d161862b2d4c472a15e78edcf80d97be89.png",
+   "sha16": "58370ad878c29c5d",
+   "ancho": 151,
+   "alto": 131,
+   "repeticiones": 11,
+   "paginas": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "decorativa_probable": true
+  },
+  {
+   "archivo": "img/image_000001_481ec20adba02247621c5673f3fb4e7da2568f4f7cb67dbc7d625888e672bf3e.png",
+   "sha16": "c23ea8ce7c36d000",
+   "ancho": 151,
+   "alto": 132,
+   "repeticiones": 2,
+   "paginas": [
+    2,
+    3
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000002_212063804f6245886f8f4c94ddc8ee5bdd1b4d2b13789c76a475fd90e4894cbe.png",
+   "sha16": "5aabe7c79e930dbf",
+   "ancho": 102,
+   "alto": 106,
+   "repeticiones": 1,
+   "paginas": [
+    2
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000003_5603fd49b55fdd597dac1a99f8b432635ce8693186d57a980e92e45a1c3b1f75.png",
+   "sha16": "7ce0379e84bff181",
+   "ancho": 102,
+   "alto": 106,
+   "repeticiones": 1,
+   "paginas": [
+    2
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000004_106264bfe0f63ce890c1ea52f8ad118dabbe235f264bd0982df21dbd6edb4887.png",
+   "sha16": "8982aec8c60e1127",
+   "ancho": 103,
+   "alto": 106,
+   "repeticiones": 1,
+   "paginas": [
+    2
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000016_c167d1ebb3496154a52f22148804aed03c408f5ba117786062bb9127463fa307.png",
+   "sha16": "d93f8734e4d3a790",
+   "ancho": 387,
+   "alto": 350,
+   "repeticiones": 1,
+   "paginas": [
+    13
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000017_84fcaddcb0db18c5abc3b85caf67f3373dc97f912efe1df99eb250a027fa5d00.png",
+   "sha16": "e9e2be6a534e33da",
+   "ancho": 372,
+   "alto": 202,
+   "repeticiones": 1,
+   "paginas": [
+    13
+   ],
+   "decorativa_probable": false
+  }
+ ],
+ "qa": {
+  "paginas_pdf": 13,
+  "paginas_md": 13,
+  "marcas_pagina": true,
+  "paginas_coinciden": true,
+  "filas_tabla_fusionadas": 0,
+  "imagenes_unicas": 7,
+  "imagenes_decorativas_prob": 1
+ }
+}

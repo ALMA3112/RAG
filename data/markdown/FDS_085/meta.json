@@ -1,0 +1,239 @@
+{
+ "id": "FDS_085",
+ "num": 85,
+ "archivo": "FDS 85 - EPOXY ESTRUCTURAS GRIS PARTE A - INTERNATIONAL - AKSONOBEL.pdf",
+ "ruta_pdf": "data/raw_pdfs/FDS EVALUADAS/FDS 2024/FDS 85 - EPOXY ESTRUCTURAS GRIS PARTE A - INTERNATIONAL - AKSONOBEL.pdf",
+ "sha256_pdf": "9cc8251c05aec69f6cf9494f6b7d147794f2f10b6bb2ff57e40ac60c93a5433c",
+ "fabricante": "International / AkzoNobel",
+ "fabricante_fuente": "nombre_archivo",
+ "fabricante_linea": null,
+ "fabricante_discrepa": false,
+ "producto_archivo": "EPOXY ESTRUCTURAS GRIS PARTE A - INTERNATIONAL - AKSONOBEL",
+ "version_archivo": null,
+ "version_texto": "1",
+ "fecha_emision": null,
+ "fecha_revision": "6-5-2024",
+ "fecha_actualizacion": null,
+ "doc_numero": null,
+ "anio_carpeta": "2024",
+ "paginas_pdf": 14,
+ "extractor": {
+  "herramienta": "docling",
+  "docling": "2.152.0",
+  "do_ocr": false,
+  "tablas": true,
+  "imagenes_escala": 2.0
+ },
+ "generado": "2026-11-24T15:08:09",
+ "tiempo_s": 92.5,
+ "md": "FDS_085.md",
+ "secciones": [
+  {
+   "seccion": 1,
+   "titulo": "## Sección 1. Identificación",
+   "linea": 7,
+   "pag_ini": 1,
+   "pag_fin": 1
+  },
+  {
+   "seccion": 2,
+   "titulo": "## Sección 2. Identificación de los peligros",
+   "linea": 41,
+   "pag_ini": 1,
+   "pag_fin": 2
+  },
+  {
+   "seccion": 3,
+   "titulo": "## Sección 3. Composición/información sobre los componentes",
+   "linea": 106,
+   "pag_ini": 2,
+   "pag_fin": 2
+  },
+  {
+   "seccion": 4,
+   "titulo": "## Sección 4. Primeros auxilios",
+   "linea": 127,
+   "pag_ini": 2,
+   "pag_fin": 4
+  },
+  {
+   "seccion": 5,
+   "titulo": "## Sección 5. Medidas de lucha contra incendios",
+   "linea": 213,
+   "pag_ini": 4,
+   "pag_fin": 4
+  },
+  {
+   "seccion": 6,
+   "titulo": "## Sección 6. Medidas en caso de vertido accidental",
+   "linea": 237,
+   "pag_ini": 4,
+   "pag_fin": 5
+  },
+  {
+   "seccion": 7,
+   "titulo": "## Sección 7. Manipulación y almacenamiento",
+   "linea": 273,
+   "pag_ini": 5,
+   "pag_fin": 5
+  },
+  {
+   "seccion": 8,
+   "titulo": "## Sección 8. Controles de exposición/protección individual",
+   "linea": 287,
+   "pag_ini": 5,
+   "pag_fin": 6
+  },
+  {
+   "seccion": 9,
+   "titulo": "## Sección 9. Propiedades físicas y químicas y características de seguridad",
+   "linea": 328,
+   "pag_ini": 6,
+   "pag_fin": 7
+  },
+  {
+   "seccion": 10,
+   "titulo": "## Sección 10. Estabilidad y reactividad",
+   "linea": 447,
+   "pag_ini": 7,
+   "pag_fin": 8
+  },
+  {
+   "seccion": 11,
+   "titulo": "## Sección 11. Información toxicológica",
+   "linea": 486,
+   "pag_ini": 8,
+   "pag_fin": 11
+  },
+  {
+   "seccion": 12,
+   "titulo": "## Sección 12. Información ecológica",
+   "linea": 697,
+   "pag_ini": 11,
+   "pag_fin": 12
+  },
+  {
+   "seccion": 13,
+   "titulo": "## Sección 13. Consideraciones relativas a la eliminación",
+   "linea": 775,
+   "pag_ini": 12,
+   "pag_fin": 13
+  },
+  {
+   "seccion": 14,
+   "titulo": "## Sección 14. Información relativa al transporte",
+   "linea": 790,
+   "pag_ini": 13,
+   "pag_fin": 13
+  },
+  {
+   "seccion": 15,
+   "titulo": "## Sección 15. Información reglamentaria",
+   "linea": 812,
+   "pag_ini": 13,
+   "pag_fin": 14
+  },
+  {
+   "seccion": 16,
+   "titulo": "## Sección 16. Otra información",
+   "linea": 885,
+   "pag_ini": 14,
+   "pag_fin": 14
+  }
+ ],
+ "estados": {
+  "1": "OK",
+  "2": "OK",
+  "3": "OK",
+  "4": "OK",
+  "5": "OK",
+  "6": "OK",
+  "7": "OK",
+  "8": "OK",
+  "9": "OK",
+  "10": "OK",
+  "11": "OK",
+  "12": "OK",
+  "13": "OK",
+  "14": "OK",
+  "15": "OK",
+  "16": "OK"
+ },
+ "imagenes": [
+  {
+   "archivo": "img/image_000000_424e8d43a34c32f00afc3ae70d56dc4bb0c7a1f3bf4a46a54b173982674991ed.png",
+   "sha16": "e8d3ff7458d2ba57",
+   "ancho": 343,
+   "alto": 46,
+   "repeticiones": 1,
+   "paginas": [
+    1
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000001_884b751603da5f6c6f9c1c6aba1f0c5e5320daf499b967a6b1c40da5d03fff18.png",
+   "sha16": "d7a9e1639d7cfc73",
+   "ancho": 99,
+   "alto": 99,
+   "repeticiones": 1,
+   "paginas": [
+    1
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000002_dccca052bfb14d6e4b540a1c9ee4a51d1987f487e948465e57f5382a9cfc93c4.png",
+   "sha16": "51880e4ea8f63cff",
+   "ancho": 142,
+   "alto": 24,
+   "repeticiones": 1,
+   "paginas": [
+    1
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000003_228a0c9f8fbe46744c126ad635b99149387e4a61620a9f6afc55404246410bfc.png",
+   "sha16": "15fa8ef190234222",
+   "ancho": 141,
+   "alto": 23,
+   "repeticiones": 12,
+   "paginas": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "decorativa_probable": true
+  },
+  {
+   "archivo": "img/image_000007_847a672bfdf49e2932deb9a0eded06662f726845580d89889e438a31421d7147.png",
+   "sha16": "09f9847541cfc6bb",
+   "ancho": 142,
+   "alto": 24,
+   "repeticiones": 1,
+   "paginas": [
+    6
+   ],
+   "decorativa_probable": false
+  }
+ ],
+ "qa": {
+  "paginas_pdf": 14,
+  "paginas_md": 14,
+  "marcas_pagina": true,
+  "paginas_coinciden": true,
+  "filas_tabla_fusionadas": 0,
+  "imagenes_unicas": 5,
+  "imagenes_decorativas_prob": 1
+ }
+}

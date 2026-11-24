@@ -1,0 +1,195 @@
+{
+ "id": "FDS_028",
+ "num": 28,
+ "archivo": "FDS 28- 401 Pintura Texturizada1.pdf",
+ "ruta_pdf": "data/raw_pdfs/FDS EVALUADAS/FDS 2020/FDS 28- 401 Pintura Texturizada1.pdf",
+ "sha256_pdf": "845e50f0db698cc07826c3b9941c8de1674e65ec9a40a86d7d349239f9fb7407",
+ "fabricante": "Sika",
+ "fabricante_fuente": "linea_etiquetada",
+ "fabricante_linea": "Sika Colombia S.A.S.",
+ "fabricante_discrepa": false,
+ "producto_archivo": "401 Pintura Texturizada1",
+ "version_archivo": null,
+ "version_texto": null,
+ "fecha_emision": "17.06.2020",
+ "fecha_revision": null,
+ "fecha_actualizacion": null,
+ "doc_numero": "1649",
+ "anio_carpeta": "2020",
+ "paginas_pdf": 8,
+ "extractor": {
+  "herramienta": "docling",
+  "docling": "2.152.0",
+  "do_ocr": false,
+  "tablas": true,
+  "imagenes_escala": 2.0
+ },
+ "generado": "2026-11-24T13:54:01",
+ "tiempo_s": 28.7,
+ "md": "FDS_028.md",
+ "secciones": [
+  {
+   "seccion": 1,
+   "titulo": "## SECCION 1: Identificación de la sustancia o la mezcla y de la sociedad o la empresa",
+   "linea": 7,
+   "pag_ini": 1,
+   "pag_fin": 1
+  },
+  {
+   "seccion": 2,
+   "titulo": "## SECCION 2: Identificación de los peligros",
+   "linea": 61,
+   "pag_ini": 1,
+   "pag_fin": 2
+  },
+  {
+   "seccion": 3,
+   "titulo": "## SECCION 3: Composición /información sobre los componentes",
+   "linea": 128,
+   "pag_ini": 2,
+   "pag_fin": 2
+  },
+  {
+   "seccion": 4,
+   "titulo": "## SECCION 4: Primeros auxilios",
+   "linea": 148,
+   "pag_ini": 2,
+   "pag_fin": 3
+  },
+  {
+   "seccion": 5,
+   "titulo": "## SECCION 5: Medidas de lucha contra incendios",
+   "linea": 203,
+   "pag_ini": 3,
+   "pag_fin": 3
+  },
+  {
+   "seccion": 6,
+   "titulo": "## SECCION 6: Medidas en caso de vertido accidental",
+   "linea": 231,
+   "pag_ini": 3,
+   "pag_fin": 3
+  },
+  {
+   "seccion": 7,
+   "titulo": "## SECCIÓN 7: Manipulación y almacenamiento",
+   "linea": 249,
+   "pag_ini": 3,
+   "pag_fin": 4
+  },
+  {
+   "seccion": 8,
+   "titulo": "## SECCIÓN 8: Controles de exposición/protección individual",
+   "linea": 288,
+   "pag_ini": 4,
+   "pag_fin": 4
+  },
+  {
+   "seccion": 9,
+   "titulo": "## SECCIÓN 9: Propiedades físicas y químicas",
+   "linea": 325,
+   "pag_ini": 4,
+   "pag_fin": 5
+  },
+  {
+   "seccion": 10,
+   "titulo": "## SECCIÓN 10: Estabilidad y reactividad",
+   "linea": 440,
+   "pag_ini": 5,
+   "pag_fin": 5
+  },
+  {
+   "seccion": 11,
+   "titulo": "## SECCIÓN 11: Información toxicológica",
+   "linea": 466,
+   "pag_ini": 5,
+   "pag_fin": 6
+  },
+  {
+   "seccion": 12,
+   "titulo": "## SECCIÓN 12: Información Ecológica",
+   "linea": 481,
+   "pag_ini": 6,
+   "pag_fin": 6
+  },
+  {
+   "seccion": 13,
+   "titulo": "## SECCIÓN 13: Consideraciones relativas a la eliminación",
+   "linea": 529,
+   "pag_ini": 6,
+   "pag_fin": 7
+  },
+  {
+   "seccion": 14,
+   "titulo": "| SECCIÓN 14: Información relativa al transporte - 14.1 Número ONU   | SECCIÓN 14: Información relativa al transporte - ",
+   "linea": 550,
+   "pag_ini": 7,
+   "pag_fin": 7
+  },
+  {
+   "seccion": 15,
+   "titulo": "## SECCIÓN 15: Información reglamentaria",
+   "linea": 564,
+   "pag_ini": 7,
+   "pag_fin": 7
+  },
+  {
+   "seccion": 16,
+   "titulo": "## SECCIÓN 16: Otra Información",
+   "linea": 600,
+   "pag_ini": 7,
+   "pag_fin": 8
+  }
+ ],
+ "estados": {
+  "1": "OK",
+  "2": "OK",
+  "3": "OK",
+  "4": "OK",
+  "5": "OK",
+  "6": "OK",
+  "7": "OK",
+  "8": "OK",
+  "9": "OK",
+  "10": "OK",
+  "11": "OK",
+  "12": "OK",
+  "13": "OK",
+  "14": "OK",
+  "15": "OK",
+  "16": "OK"
+ },
+ "imagenes": [
+  {
+   "archivo": "img/image_000000_dee18f90b296e0be4c990117fab82d8384ad94da67122e084a470a869f74e66c.png",
+   "sha16": "bf595cb647ff4982",
+   "ancho": 218,
+   "alto": 77,
+   "repeticiones": 1,
+   "paginas": [
+    1
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000001_43b83d8bebfee86678a36f6da1f6fe3be65b7b21f4a33f778cdfecdb1d819546.png",
+   "sha16": "84c29d09848da37d",
+   "ancho": 103,
+   "alto": 103,
+   "repeticiones": 1,
+   "paginas": [
+    1
+   ],
+   "decorativa_probable": false
+  }
+ ],
+ "qa": {
+  "paginas_pdf": 8,
+  "paginas_md": 8,
+  "marcas_pagina": true,
+  "paginas_coinciden": true,
+  "filas_tabla_fusionadas": 0,
+  "imagenes_unicas": 2,
+  "imagenes_decorativas_prob": 0
+ }
+}

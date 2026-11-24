@@ -1,0 +1,312 @@
+{
+ "id": "FDS_044",
+ "num": 44,
+ "archivo": "FDS 44 - TEXTUCO - CORONA .pdf",
+ "ruta_pdf": "data/raw_pdfs/FDS EVALUADAS/FDS 2021/FDS 44 - TEXTUCO - CORONA .pdf",
+ "sha256_pdf": "21c4d1297c2fa5122d566c5e16e9262c6c77af065ec9aa2a6788f115faae43db",
+ "fabricante": "Corona",
+ "fabricante_fuente": "nombre_archivo",
+ "fabricante_linea": null,
+ "fabricante_discrepa": false,
+ "producto_archivo": "TEXTUCO - CORONA",
+ "version_archivo": null,
+ "version_texto": "2",
+ "fecha_emision": "10/07/2019",
+ "fecha_revision": "16/06/2021",
+ "fecha_actualizacion": null,
+ "doc_numero": null,
+ "anio_carpeta": "2021",
+ "paginas_pdf": 10,
+ "extractor": {
+  "herramienta": "docling",
+  "docling": "2.152.0",
+  "do_ocr": false,
+  "tablas": true,
+  "imagenes_escala": 2.0
+ },
+ "generado": "2026-11-24T14:09:55",
+ "tiempo_s": 49.2,
+ "md": "FDS_044.md",
+ "secciones": [
+  {
+   "seccion": 1,
+   "titulo": "## SECCIÓN 1: IDENTIFICACIÓN DEL PRODUCTO",
+   "linea": 5,
+   "pag_ini": 1,
+   "pag_fin": 1
+  },
+  {
+   "seccion": 2,
+   "titulo": "## SECCIÓN 2: IDENTIFICACIÓN DEL PELIGRO O PELIGROS",
+   "linea": 27,
+   "pag_ini": 1,
+   "pag_fin": 2
+  },
+  {
+   "seccion": 3,
+   "titulo": "## SECCIÓN 3: COMPOSICIÓN/INFORMACIÓN SOBRE LOS COMPONENTES",
+   "linea": 102,
+   "pag_ini": 2,
+   "pag_fin": 2
+  },
+  {
+   "seccion": 4,
+   "titulo": "## SECCIÓN 4: PRIMEROS AUXILIOS",
+   "linea": 124,
+   "pag_ini": 2,
+   "pag_fin": 2
+  },
+  {
+   "seccion": 5,
+   "titulo": "## SECCIÓN 5: MEDIDAS DE LUCHA CONTRA INCENDIOS",
+   "linea": 154,
+   "pag_ini": 2,
+   "pag_fin": 3
+  },
+  {
+   "seccion": 6,
+   "titulo": "## SECCIÓN 6: MEDIDAS QUE DEBEN TOMARSE EN CASO DE VERTIDO ACCIDENTAL",
+   "linea": 197,
+   "pag_ini": 3,
+   "pag_fin": 3
+  },
+  {
+   "seccion": 7,
+   "titulo": "## SECCIÓN 7: MANIPULACIÓN Y ALMACENAMIENTO",
+   "linea": 217,
+   "pag_ini": 3,
+   "pag_fin": 4
+  },
+  {
+   "seccion": 8,
+   "titulo": "## SECCIÓN 8: CONTROLES DE EXPOSICIÓN/PROTECCIÓN PERSONAL",
+   "linea": 276,
+   "pag_ini": 4,
+   "pag_fin": 5
+  },
+  {
+   "seccion": 9,
+   "titulo": "## SECCIÓN 9: PROPIEDADES FÍSICAS Y QUÍMICAS Y CARACTERÍSTICAS DE SEGURIDAD",
+   "linea": 362,
+   "pag_ini": 5,
+   "pag_fin": 6
+  },
+  {
+   "seccion": 10,
+   "titulo": "## SECCIÓN 10: ESTABILIDAD Y REACTIVIDAD",
+   "linea": 485,
+   "pag_ini": 6,
+   "pag_fin": 6
+  },
+  {
+   "seccion": 11,
+   "titulo": "## SECCIÓN 11: INFORMACIÓN TOXICOLÓGICA",
+   "linea": 517,
+   "pag_ini": 6,
+   "pag_fin": 7
+  },
+  {
+   "seccion": 12,
+   "titulo": "## SECCIÓN 12: INFORMACIÓN ECOTOXICOLÓGICA",
+   "linea": 588,
+   "pag_ini": 7,
+   "pag_fin": 8
+  },
+  {
+   "seccion": 13,
+   "titulo": "## SECCIÓN 13: INFORMACIÓN RELATIVA A LA ELIMINACIÓN DE LOS PRODUCTOS",
+   "linea": 639,
+   "pag_ini": 8,
+   "pag_fin": 8
+  },
+  {
+   "seccion": 14,
+   "titulo": "## SECCIÓN 14: INFORMACIÓN RELATIVA AL TRANSPORTE",
+   "linea": 653,
+   "pag_ini": 8,
+   "pag_fin": 8
+  },
+  {
+   "seccion": 15,
+   "titulo": "## SECCIÓN 15: INFORMACIÓN SOBRE LA REGLAMENTACIÓN",
+   "linea": 657,
+   "pag_ini": 8,
+   "pag_fin": 9
+  },
+  {
+   "seccion": 16,
+   "titulo": "## SECCIÓN 16: OTRAS INFORMACIONES",
+   "linea": 718,
+   "pag_ini": 9,
+   "pag_fin": 10
+  }
+ ],
+ "estados": {
+  "1": "OK",
+  "2": "OK",
+  "3": "OK",
+  "4": "OK",
+  "5": "OK",
+  "6": "OK",
+  "7": "OK",
+  "8": "OK",
+  "9": "OK",
+  "10": "OK",
+  "11": "OK",
+  "12": "OK",
+  "13": "OK",
+  "14": "OK",
+  "15": "OK",
+  "16": "OK"
+ },
+ "imagenes": [
+  {
+   "archivo": "img/image_000000_acac208b0e6efc8a139c32da5c270daf31642aebbe89ee6e484aef542301db95.png",
+   "sha16": "2e70e16f65e56b0c",
+   "ancho": 195,
+   "alto": 49,
+   "repeticiones": 8,
+   "paginas": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "decorativa_probable": true
+  },
+  {
+   "archivo": "img/image_000001_2bd5297e6ccab3b3b14c922326aecd402f3dc69197357a87cbda2121820317b3.png",
+   "sha16": "ae441f0183f9cdbb",
+   "ancho": 76,
+   "alto": 75,
+   "repeticiones": 1,
+   "paginas": [
+    1
+   ],
+   "decorativa_probable": true
+  },
+  {
+   "archivo": "img/image_000002_53b3522f650e8e7dde4e6bd57f2dbb8303d4984474fc9ba253d9d9792ac2aab2.png",
+   "sha16": "5c4c4a82f732c651",
+   "ancho": 58,
+   "alto": 57,
+   "repeticiones": 1,
+   "paginas": [
+    1
+   ],
+   "decorativa_probable": true
+  },
+  {
+   "archivo": "img/image_000003_c7fbcb32fd25a894403d2a6bdcef5d16492624f39c0ef10b55b8a010c403be0b.png",
+   "sha16": "138fb2ab3c05c150",
+   "ancho": 195,
+   "alto": 49,
+   "repeticiones": 1,
+   "paginas": [
+    2
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000004_482c1cf9ea3c7f27edbfebdb9c36b6777bc3dc6827c8df35c2fc6697e41dcc34.png",
+   "sha16": "1f1c5d6ed12b5364",
+   "ancho": 48,
+   "alto": 24,
+   "repeticiones": 1,
+   "paginas": [
+    2
+   ],
+   "decorativa_probable": true
+  },
+  {
+   "archivo": "img/image_000007_7ee17216834fd889db2418f792c19d8925a235de7d440f3ac0b4466113505397.png",
+   "sha16": "13f65895668c9a7c",
+   "ancho": 127,
+   "alto": 146,
+   "repeticiones": 1,
+   "paginas": [
+    4
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000008_794fc8b9a7d019210f06116a0f99e5b40c283d17225a4f1f343b4dd2c23a58d4.png",
+   "sha16": "9602c009b53f69fd",
+   "ancho": 125,
+   "alto": 131,
+   "repeticiones": 1,
+   "paginas": [
+    4
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000009_14cc21047e92ddf99458b0cf6383585dfa812c2af15a317953d0ee4d18d9fa64.png",
+   "sha16": "92e89dcd877f82ca",
+   "ancho": 126,
+   "alto": 129,
+   "repeticiones": 1,
+   "paginas": [
+    4
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000011_fae85ff9d7d397e8570a17fd4971f446afc71b85ff56c772e551cbfa75581323.png",
+   "sha16": "3135afabaaba5a24",
+   "ancho": 127,
+   "alto": 81,
+   "repeticiones": 1,
+   "paginas": [
+    5
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000012_812f303dbdbff7d58713caa7388e3b71b7c4f58927754b01eaa57e513a51e0bd.png",
+   "sha16": "01c3e8eda36e4663",
+   "ancho": 58,
+   "alto": 58,
+   "repeticiones": 1,
+   "paginas": [
+    5
+   ],
+   "decorativa_probable": true
+  },
+  {
+   "archivo": "img/image_000017_b2f94f1b6099eab4bd4de826f248d755197349749893457f132d0ab54ba368ae.png",
+   "sha16": "577a92b8179f76a4",
+   "ancho": 195,
+   "alto": 50,
+   "repeticiones": 1,
+   "paginas": [
+    10
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000018_75d107dc7460dc842a973b2af943f644dede408509beeaa2563c8c4e86d5678d.png",
+   "sha16": "48c86b464f867340",
+   "ancho": 1190,
+   "alto": 304,
+   "repeticiones": 1,
+   "paginas": [
+    10
+   ],
+   "decorativa_probable": false
+  }
+ ],
+ "qa": {
+  "paginas_pdf": 10,
+  "paginas_md": 10,
+  "marcas_pagina": true,
+  "paginas_coinciden": true,
+  "filas_tabla_fusionadas": 0,
+  "imagenes_unicas": 12,
+  "imagenes_decorativas_prob": 5
+ }
+}

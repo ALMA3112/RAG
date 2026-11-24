@@ -1,0 +1,271 @@
+{
+ "id": "FDS_072",
+ "num": 72,
+ "archivo": "FDS 72 - Sikafloor®-2430 CO Comp.B - SIKA.pdf",
+ "ruta_pdf": "data/raw_pdfs/FDS EVALUADAS/FDS 2023/FDS 72 - Sikafloor®-2430 CO Comp.B - SIKA.pdf",
+ "sha256_pdf": "4e163cc3af2323749607b3382c55cf2e65525ee56a01225fa3c106c59f51af63",
+ "fabricante": "Sika",
+ "fabricante_fuente": "nombre_archivo",
+ "fabricante_linea": "O FABRICANTE",
+ "fabricante_discrepa": false,
+ "producto_archivo": "Sikafloor®-2430 CO Comp.B - SIKA",
+ "version_archivo": null,
+ "version_texto": "3.0",
+ "fecha_emision": null,
+ "fecha_revision": "2023/08/15",
+ "fecha_actualizacion": null,
+ "doc_numero": "100000030203",
+ "anio_carpeta": "2023",
+ "paginas_pdf": 12,
+ "extractor": {
+  "herramienta": "docling",
+  "docling": "2.152.0",
+  "do_ocr": false,
+  "tablas": true,
+  "imagenes_escala": 2.0
+ },
+ "generado": "2026-11-24T14:50:46",
+ "tiempo_s": 46.7,
+ "md": "FDS_072.md",
+ "secciones": [
+  {
+   "seccion": 1,
+   "titulo": "## SECCIÓN 1. IDENTIFICACIÓN DE LA SUSTANCIA QUÍMICA PELIGROSA O MEZCLA Y DEL PROVEEDOR O FABRICANTE",
+   "linea": 13,
+   "pag_ini": 1,
+   "pag_fin": 1
+  },
+  {
+   "seccion": 2,
+   "titulo": "## SECCIÓN 2. IDENTIFICACIÓN DE LOS PELIGROS",
+   "linea": 49,
+   "pag_ini": 1,
+   "pag_fin": 3
+  },
+  {
+   "seccion": 3,
+   "titulo": "## SECCIÓN 3. COMPOSICIÓN/INFORMACIÓN SOBRE LOS INGREDIENTES",
+   "linea": 213,
+   "pag_ini": 3,
+   "pag_fin": 3
+  },
+  {
+   "seccion": 4,
+   "titulo": "## SECCIÓN 4. PRIMEROS AUXILIOS",
+   "linea": 228,
+   "pag_ini": 3,
+   "pag_fin": 4
+  },
+  {
+   "seccion": 5,
+   "titulo": "## SECCIÓN 5. MEDIDAS CONTRA INCENDIOS",
+   "linea": 281,
+   "pag_ini": 4,
+   "pag_fin": 4
+  },
+  {
+   "seccion": 6,
+   "titulo": "## SECCIÓN 6. MEDIDAS QUE DEBEN TOMARSE EN CASO DE DERRAME ACCIDENTAL O FUGA ACCIDENTAL",
+   "linea": 311,
+   "pag_ini": 4,
+   "pag_fin": 5
+  },
+  {
+   "seccion": 7,
+   "titulo": "## SECCIÓN 7. MANEJO Y ALMACENAMIENTO",
+   "linea": 341,
+   "pag_ini": 5,
+   "pag_fin": 5
+  },
+  {
+   "seccion": 8,
+   "titulo": "## SECCIÓN 8. CONTROLES DE EXPOSICIÓN/PROTECCIÓN PERSONAL",
+   "linea": 377,
+   "pag_ini": 5,
+   "pag_fin": 7
+  },
+  {
+   "seccion": 9,
+   "titulo": "## SECCIÓN 9. PROPIEDADES FÍSICAS Y QUÍMICAS",
+   "linea": 443,
+   "pag_ini": 7,
+   "pag_fin": 8
+  },
+  {
+   "seccion": 10,
+   "titulo": "## SECCIÓN 10. ESTABILIDAD Y REACTIVIDAD",
+   "linea": 570,
+   "pag_ini": 8,
+   "pag_fin": 8
+  },
+  {
+   "seccion": 11,
+   "titulo": "## SECCIÓN 11. INFORMACIÓN TOXICOLÓGICA",
+   "linea": 594,
+   "pag_ini": 8,
+   "pag_fin": 9
+  },
+  {
+   "seccion": 12,
+   "titulo": "## SECCIÓN 12. INFORMACIÓN ECOTOXICOLOGICA",
+   "linea": 679,
+   "pag_ini": 9,
+   "pag_fin": 9
+  },
+  {
+   "seccion": 13,
+   "titulo": "## SECCIÓN 13. INFORMACIÓN RELATIVA A LA ELIMINACIÓN DE LOS PRODUCTOS",
+   "linea": 727,
+   "pag_ini": 9,
+   "pag_fin": 10
+  },
+  {
+   "seccion": 14,
+   "titulo": "## SECCIÓN 14. INFORMACIÓN RELATIVA AL TRANSPORTE",
+   "linea": 766,
+   "pag_ini": 10,
+   "pag_fin": 10
+  },
+  {
+   "seccion": 15,
+   "titulo": "## SECCIÓN 15. INFORMACIÓN REGLAMENTARIA",
+   "linea": 866,
+   "pag_ini": 10,
+   "pag_fin": 11
+  },
+  {
+   "seccion": 16,
+   "titulo": "## SECCIÓN 16. OTRA INFORMACIÓN INCLUIDAS LAS RELATIVAS A LA PREPARACIÓN Y ACTUALIZACIÓN DE LAS HOJAS DE DATOS DE SEGURI",
+   "linea": 927,
+   "pag_ini": 11,
+   "pag_fin": 12
+  }
+ ],
+ "estados": {
+  "1": "OK",
+  "2": "OK",
+  "3": "OK",
+  "4": "OK",
+  "5": "OK",
+  "6": "OK",
+  "7": "OK",
+  "8": "OK",
+  "9": "OK",
+  "10": "OK",
+  "11": "OK",
+  "12": "OK",
+  "13": "OK",
+  "14": "OK",
+  "15": "OK",
+  "16": "OK"
+ },
+ "imagenes": [
+  {
+   "archivo": "img/image_000000_481ec20adba02247621c5673f3fb4e7da2568f4f7cb67dbc7d625888e672bf3e.png",
+   "sha16": "c23ea8ce7c36d000",
+   "ancho": 151,
+   "alto": 132,
+   "repeticiones": 4,
+   "paginas": [
+    1,
+    2,
+    7,
+    11
+   ],
+   "decorativa_probable": true
+  },
+  {
+   "archivo": "img/image_000002_11013c88b9240f0d44e1cfe5463b046f2535bbc29f8727426fa654369a5c9aec.png",
+   "sha16": "6d93c01a1998dec4",
+   "ancho": 103,
+   "alto": 106,
+   "repeticiones": 1,
+   "paginas": [
+    2
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000003_513f64a39a42ed25e4786293cce87adca61d544a6bc9c4915252f08b779fc759.png",
+   "sha16": "fbbbaf6db6bac4dd",
+   "ancho": 104,
+   "alto": 106,
+   "repeticiones": 1,
+   "paginas": [
+    2
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000004_1d06ecec1c08c45f3e8891c1be5cf30bd8b46c631c7604bab2055ad563ce28f8.png",
+   "sha16": "6a7fd1e9a0f72924",
+   "ancho": 104,
+   "alto": 103,
+   "repeticiones": 1,
+   "paginas": [
+    2
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000005_4b8cc7e5114fcdb67b4da046e021bf5faa2b86b4872c0dae45d9694a0ef9208f.png",
+   "sha16": "6b7828c5955f1a28",
+   "ancho": 103,
+   "alto": 106,
+   "repeticiones": 1,
+   "paginas": [
+    2
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000006_ae8b0a562800646e62e84ce224f584d161862b2d4c472a15e78edcf80d97be89.png",
+   "sha16": "58370ad878c29c5d",
+   "ancho": 151,
+   "alto": 131,
+   "repeticiones": 8,
+   "paginas": [
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    12
+   ],
+   "decorativa_probable": true
+  },
+  {
+   "archivo": "img/image_000015_abed579aa17ef3ac6caa4fd448674724cfce9e2122b2e748f8782bf9f86c2fba.png",
+   "sha16": "3e4ff779367bdde4",
+   "ancho": 382,
+   "alto": 376,
+   "repeticiones": 1,
+   "paginas": [
+    11
+   ],
+   "decorativa_probable": false
+  },
+  {
+   "archivo": "img/image_000016_e4d54c9ae936583aa395fab0aaffa2ed29eaf521bed9478233424d49320dcea9.png",
+   "sha16": "8f48fa25da8f045e",
+   "ancho": 372,
+   "alto": 203,
+   "repeticiones": 1,
+   "paginas": [
+    11
+   ],
+   "decorativa_probable": false
+  }
+ ],
+ "qa": {
+  "paginas_pdf": 12,
+  "paginas_md": 12,
+  "marcas_pagina": true,
+  "paginas_coinciden": true,
+  "filas_tabla_fusionadas": 0,
+  "imagenes_unicas": 8,
+  "imagenes_decorativas_prob": 2
+ }
+}

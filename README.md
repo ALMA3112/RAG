@@ -3,7 +3,7 @@ Parcial final PLN 2026-S02. Corpus: 101 FDS de pinturas (2018-2025).
 
 ## Estado por fases
 - [x] A0 Infraestructura (AWS Learner Lab, EC2 + Ollama + S3)
-- [ ] A1 Ingesta PDF -> Markdown (en curso: piloto de extractores)
+- [x] A1 Ingesta PDF -> Markdown (Docling sin OCR; resultados en data/manifests)
 - [ ] A2 Verificación de la extracción
 - [ ] A3 Chunking, embeddings e índice
 - [ ] A4 Recuperación y generación con citas
