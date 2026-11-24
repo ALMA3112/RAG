@@ -5,3 +5,4 @@ storage/
 __pycache__/
 .venv/
 *.log
+data/pilot2/
