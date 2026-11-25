@@ -221,8 +221,18 @@
   "paginas_md": 11,
   "marcas_pagina": true,
   "paginas_coinciden": true,
-  "filas_tabla_fusionadas": 1,
+  "filas_tabla_fusionadas": 0,
   "imagenes_unicas": 5,
   "imagenes_decorativas_prob": 3
- }
+ },
+ "reparaciones_tablas": [
+  {
+   "tipo": "fila_tabla_fusionada",
+   "seccion": 3,
+   "linea": 217,
+   "pagina": 3,
+   "antes": "| Acetato de butilo CAS: 123-86-4 Xileno CAS: 1330-20-7 nafta disolvente (petróleo), fracción aromática ligera CAS: 64742-95-6 Etilbenceno CAS: 100-41-4 sebacato de metilo y 1,2,2,6,6-pentametil-4-pip",
+   "filas_nuevas": 6
+  }
+ ]
 }

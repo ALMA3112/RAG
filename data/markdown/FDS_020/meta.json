@@ -243,8 +243,18 @@
   "paginas_md": 10,
   "marcas_pagina": true,
   "paginas_coinciden": true,
-  "filas_tabla_fusionadas": 1,
+  "filas_tabla_fusionadas": 0,
   "imagenes_unicas": 7,
   "imagenes_decorativas_prob": 3
- }
+ },
+ "reparaciones_tablas": [
+  {
+   "tipo": "fila_tabla_fusionada",
+   "seccion": 3,
+   "linea": 233,
+   "pagina": 3,
+   "antes": "| Varsol CAS: 8032-32-4 Xileno CAS: 1330-20-7 | 10% - 20% 10% - 20% |",
+   "filas_nuevas": 2
+  }
+ ]
 }
