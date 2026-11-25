@@ -52,91 +52,91 @@
   {
    "seccion": 4,
    "titulo": "## SECCION 4: Primeros auxilios",
-   "linea": 221,
+   "linea": 226,
    "pag_ini": 3,
    "pag_fin": 4
   },
   {
    "seccion": 5,
    "titulo": "## SECCION 5: Medidas de lucha contra incendios",
-   "linea": 255,
+   "linea": 260,
    "pag_ini": 4,
    "pag_fin": 4
   },
   {
    "seccion": 6,
    "titulo": "## SECCION 6: Medidas en caso de vertido accidental",
-   "linea": 307,
+   "linea": 312,
    "pag_ini": 4,
    "pag_fin": 5
   },
   {
    "seccion": 7,
    "titulo": "## SECCIÓN 7: Manipulación y almacenamiento",
-   "linea": 342,
+   "linea": 347,
    "pag_ini": 5,
    "pag_fin": 6
   },
   {
    "seccion": 8,
    "titulo": "## SECCIÓN 8: Controles de exposición/protección individual",
-   "linea": 401,
+   "linea": 406,
    "pag_ini": 6,
    "pag_fin": 7
   },
   {
    "seccion": 9,
    "titulo": "## SECCIÓN 9: Propiedades físicas y químicas",
-   "linea": 481,
+   "linea": 486,
    "pag_ini": 7,
    "pag_fin": 8
   },
   {
    "seccion": 10,
    "titulo": "## SECCIÓN 10: Estabilidad y reactividad",
-   "linea": 600,
+   "linea": 605,
    "pag_ini": 8,
    "pag_fin": 8
   },
   {
    "seccion": 11,
    "titulo": "## SECCIÓN 11: Información toxicológica",
-   "linea": 628,
+   "linea": 633,
    "pag_ini": 8,
    "pag_fin": 8
   },
   {
    "seccion": 12,
    "titulo": "## SECCIÓN 12: Información Ecológica",
-   "linea": 676,
+   "linea": 681,
    "pag_ini": 8,
    "pag_fin": 9
   },
   {
    "seccion": 13,
    "titulo": "## SECCIÓN 13: Consideraciones relativas a la eliminación",
-   "linea": 763,
+   "linea": 768,
    "pag_ini": 9,
    "pag_fin": 10
   },
   {
    "seccion": 14,
    "titulo": "| SECCIÓN 14: Información relativa al transporte                | SECCIÓN 14: Información relativa al transporte - ADR/R",
-   "linea": 786,
+   "linea": 791,
    "pag_ini": 10,
    "pag_fin": 10
   },
   {
    "seccion": 15,
    "titulo": "## SECCIÓN 15: Información reglamentaria",
-   "linea": 800,
+   "linea": 805,
    "pag_ini": 10,
    "pag_fin": 11
   },
   {
    "seccion": 16,
    "titulo": "## SECCIÓN 16: Otra Información",
-   "linea": 849,
+   "linea": 854,
    "pag_ini": 11,
    "pag_fin": 11
   }

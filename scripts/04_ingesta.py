@@ -22,17 +22,37 @@ KW = {1: r"identific|identif", 2: r"peligro|riesgo|hazard|composici|ingredient|c
       9: r"propiedades f|physical", 10: r"estabilidad|reactividad|stability", 11: r"toxicol",
       12: r"ecolog|ecotox", 13: r"eliminaci|disposal|disposici|residuo", 14: r"transporte|transport",
       15: r"reglament|regulat|normativ", 16: r"otras? informaci|other information|informacion adicional"}
-HEAD = re.compile(r"(?:seccion|section)?\s*(\d{1,2})(?!\d|\.\d)\s*[:.\-–)]*\s*(.*)$")
+H2 = re.compile(r"(?i)(?:(?:seccion|section)\s*)?(\d{1,2})(?!\d|\.\d)\s*([:.\-–)]*)\s*(.*)$")
+fold = lambda s: "".join(c for c in unicodedata.normalize("NFKD", s) if not unicodedata.combining(c))
+
+def candidatos(lines):
+    out = []
+    for i, raw in enumerate(lines):
+        m = H2.match(fold(raw).strip().lstrip("#*_>| -").strip())
+        if not m: continue
+        n, punct, rest = int(m.group(1)), m.group(2), m.group(3)
+        if not 1 <= n <= 16 or not re.search(KW[n], rest[:120].lower()): continue
+        letras = [c for c in rest[:40] if c.isalpha()]
+        if punct or (letras and sum(c.isupper() for c in letras) / len(letras) >= 0.7): out.append((i, n))
+    return out
 
 def heading_hits(lines):
-    hits = {}
-    for i, raw in enumerate(lines):
-        m = HEAD.match(norm(raw).strip().lstrip("#*_>| -").strip())
-        if m:
-            n = int(m.group(1))
-            if 1 <= n <= 16 and n not in hits and re.search(KW[n], m.group(2)[:120]):
-                hits[n] = i
-    return hits
+    """Titulos de seccion: cadena 1..16 en orden creciente de linea (la mas larga; a igual longitud, la mas temprana).
+    Descarta referencias cruzadas ('...la Seccion 13 para la eliminacion...') que caen al inicio de una linea."""
+    c = candidatos(lines)
+    if not c: return {}
+    sc, prev = [], []
+    for j, (i, n) in enumerate(c):
+        best, bk = (1, -i), None
+        for k in range(j):
+            if c[k][1] < n and c[k][0] < i:
+                t = (sc[k][0] + 1, sc[k][1] - i)
+                if t > best: best, bk = t, k
+        sc.append(best); prev.append(bk)
+    j = max(range(len(c)), key=lambda x: sc[x]); res = {}
+    while j is not None:
+        res[c[j][1]] = c[j][0]; j = prev[j]
+    return dict(sorted(res.items()))
 
 # ---------- metadatos ----------
 KNOWN = [("TECNIDECOR", "Tecnidecor"), ("PINTUCO", "Pintuco"), ("CORONA", "Corona"), ("SIKA", "Sika"),
