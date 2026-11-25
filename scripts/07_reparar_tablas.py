@@ -10,6 +10,7 @@ ing = importlib.util.module_from_spec(spec); spec.loader.exec_module(ing)
 
 CAS = re.compile(r"CAS:?\s*\d{2,7}-\d{2}-\d")
 PCT = re.compile(r"[<>≤≥]?\s*\d+(?:[.,]\d+)?\s*%?\s*[-–]\s*[<>≤≥]?\s*\d+(?:[.,]\d+)?\s*%")
+PRUEBA = re.compile(r"\b(?:TLV-TWA|TWA|STEL|CL50|EC50|LC50|NOEC|LD50|DL50)\b", re.I)
 ENTRY = re.compile(r"\s*(.+?CAS:?\s*\d{2,7}-\d{2}-\d)")
 SEP = re.compile(r"\|[\s\-:|]+\|?")
 norm_ws = lambda s: re.sub(r"\s+", " ", s).strip()
@@ -63,7 +64,7 @@ def main():
         for i, l in enumerate(lines):
             if not es_fila(l): continue
             cells = l.strip().strip("|").split("|")
-            motivos = (["celdas_con_varios_CAS"] if any(len(CAS.findall(c)) >= 2 for c in cells) else []) + (["celda_muy_larga"] if any(len(c) > 350 for c in cells) else [])
+            motivos = (["varios_CAS_en_celda"] if any(len(CAS.findall(c)) >= 2 for c in cells) else []) + (["varias_pruebas_en_celda"] if any(len(PRUEBA.findall(norm_ws(c))) >= 2 for c in cells) else [])
             if motivos:
                 sosp.append(dict(id=did, seccion=seccion_de(sec, i), linea=i, pagina=pg[i], motivo="+".join(motivos), estado="NO_REPARADA_requiere_inferencia", texto=norm_ws(l)[:200]))
     filas = [dict(id=json.loads(p.read_text(encoding="utf-8"))["id"], **r) for p in sorted(ing.OUT.glob("FDS_*/meta.json"))
