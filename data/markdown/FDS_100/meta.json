@@ -54,75 +54,89 @@
    "titulo": "## SECCIÓN 4: PRIMEROS AUXILIOS",
    "linea": 162,
    "pag_ini": 2,
+   "pag_fin": 3
+  },
+  {
+   "seccion": 5,
+   "titulo": "## SECCIÓN 5: MEDIDAS DE LUCHA CONTRA INCENDIOS 5.1 Medios de extinción apropiados: Medios de extinción apropiados: Exti",
+   "linea": 211,
+   "pag_ini": 3,
    "pag_fin": 4
   },
   {
    "seccion": 6,
    "titulo": "## SECCIÓN 6: MEDIDAS QUE DEBEN TOMARSE EN CASO DE VERTIDO ACCIDENTAL (continúa)",
-   "linea": 244,
+   "linea": 246,
+   "pag_ini": 4,
+   "pag_fin": 4
+  },
+  {
+   "seccion": 7,
+   "titulo": "## SECCIÓN 7: MANIPULACIÓN Y ALMACENAMIENTO 7.1 Precauciones que se deben tomar para garantizar una manipulación segura:",
+   "linea": 270,
    "pag_ini": 4,
    "pag_fin": 4
   },
   {
    "seccion": 8,
    "titulo": "## SECCIÓN 8: CONTROLES DE EXPOSICIÓN/PROTECCIÓN PERSONAL",
-   "linea": 276,
+   "linea": 280,
    "pag_ini": 4,
    "pag_fin": 6
   },
   {
    "seccion": 9,
    "titulo": "## SECCIÓN 9: PROPIEDADES FÍSICAS Y QUÍMICAS Y CARACTERÍSTICAS DE SEGURIDAD",
-   "linea": 396,
+   "linea": 400,
    "pag_ini": 6,
    "pag_fin": 7
   },
   {
    "seccion": 10,
    "titulo": "## SECCIÓN 10: ESTABILIDAD Y REACTIVIDAD",
-   "linea": 553,
+   "linea": 557,
    "pag_ini": 7,
    "pag_fin": 8
   },
   {
    "seccion": 11,
    "titulo": "## SECCIÓN 11: INFORMACIÓN TOXICOLÓGICA",
-   "linea": 608,
+   "linea": 612,
    "pag_ini": 8,
    "pag_fin": 9
   },
   {
    "seccion": 12,
    "titulo": "## SECCIÓN 12: INFORMACIÓN ECOTOXICOLÓGICA",
-   "linea": 673,
+   "linea": 677,
    "pag_ini": 9,
    "pag_fin": 10
   },
   {
    "seccion": 13,
    "titulo": "## SECCIÓN 13: INFORMACIÓN RELATIVA A LA ELIMINACIÓN DE LOS PRODUCTOS",
-   "linea": 787,
+   "linea": 791,
    "pag_ini": 10,
    "pag_fin": 10
   },
   {
    "seccion": 14,
    "titulo": "## SECCIÓN 14: INFORMACIÓN RELATIVA AL TRANSPORTE",
-   "linea": 803,
+   "linea": 807,
    "pag_ini": 10,
    "pag_fin": 11
   },
   {
    "seccion": 15,
    "titulo": "## SECCIÓN 15: INFORMACIÓN SOBRE LA REGLAMENTACIÓN",
-   "linea": 942,
+   "linea": 946,
    "pag_ini": 11,
    "pag_fin": 13
   },
   {
    "seccion": 16,
    "titulo": "SECCIÓN 16: OTRAS INFORMACIONES (continúa)",
-   "linea": 1014,
+   "linea": 1018,
    "pag_ini": 13,
    "pag_fin": 13
   }
@@ -132,9 +146,9 @@
   "2": "OK",
   "3": "OK",
   "4": "OK",
-  "5": "FALLO_EXTRACCION",
+  "5": "REPARADO_ESTRUCTURA",
   "6": "OK",
-  "7": "FALLO_EXTRACCION",
+  "7": "REPARADO_ESTRUCTURA",
   "8": "OK",
   "9": "OK",
   "10": "OK",
@@ -463,5 +477,23 @@
   "filas_tabla_fusionadas": 0,
   "imagenes_unicas": 27,
   "imagenes_decorativas_prob": 20
- }
+ },
+ "reparaciones": [
+  {
+   "tipo": "encabezado_en_linea",
+   "seccion": 5,
+   "linea": 209,
+   "pagina": 3,
+   "antes": ", de tratamiento especial: No relevante",
+   "titulo": "SECCIÓN 5: MEDIDAS DE LUCHA CONTRA INCENDIOS 5.1 Medios de extinción apropiados:"
+  },
+  {
+   "tipo": "encabezado_en_linea",
+   "seccion": 7,
+   "linea": 266,
+   "pagina": 4,
+   "antes": "otras secciones: Ver secciones 8 y 13.",
+   "titulo": "SECCIÓN 7: MANIPULACIÓN Y ALMACENAMIENTO 7.1 Precauciones que se deben tomar par"
+  }
+ ]
 }

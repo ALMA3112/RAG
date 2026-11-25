@@ -57,72 +57,86 @@
    "pag_fin": 3
   },
   {
+   "seccion": 5,
+   "titulo": "## SECCIÓN 5: MEDIDAS DE LUCHA CONTRA INCENDIOS 5.1 Medios de extinción apropiados: Medios de extinción apropiados: Exti",
+   "linea": 225,
+   "pag_ini": 3,
+   "pag_fin": 3
+  },
+  {
    "seccion": 6,
    "titulo": "## SECCIÓN 6: MEDIDAS QUE DEBEN TOMARSE EN CASO DE VERTIDO ACCIDENTAL",
-   "linea": 227,
+   "linea": 229,
    "pag_ini": 3,
    "pag_fin": 5
   },
   {
    "seccion": 7,
    "titulo": "## SECCIÓN 7: MANIPULACIÓN Y ALMACENAMIENTO (continúa)",
-   "linea": 318,
+   "linea": 320,
    "pag_ini": 5,
    "pag_fin": 5
   },
   {
    "seccion": 8,
    "titulo": "## SECCIÓN 8: CONTROLES DE EXPOSICIÓN/PROTECCIÓN PERSONAL",
-   "linea": 324,
+   "linea": 326,
    "pag_ini": 5,
    "pag_fin": 6
   },
   {
    "seccion": 9,
    "titulo": "## SECCIÓN 9: PROPIEDADES FÍSICAS Y QUÍMICAS Y CARACTERÍSTICAS DE SEGURIDAD",
-   "linea": 411,
+   "linea": 413,
    "pag_ini": 6,
    "pag_fin": 7
   },
   {
    "seccion": 10,
    "titulo": "## SECCIÓN 10: ESTABILIDAD Y REACTIVIDAD",
-   "linea": 586,
+   "linea": 588,
    "pag_ini": 7,
    "pag_fin": 9
   },
   {
    "seccion": 11,
    "titulo": "## SECCIÓN 11: INFORMACIÓN TOXICOLÓGICA (continúa)",
-   "linea": 677,
+   "linea": 679,
    "pag_ini": 9,
    "pag_fin": 9
   },
   {
    "seccion": 12,
    "titulo": "## SECCIÓN 12: INFORMACIÓN ECOTOXICOLÓGICA",
-   "linea": 706,
+   "linea": 708,
    "pag_ini": 9,
    "pag_fin": 11
   },
   {
    "seccion": 13,
    "titulo": "## SECCIÓN 13: INFORMACIÓN RELATIVA A LA ELIMINACIÓN DE LOS PRODUCTOS",
-   "linea": 852,
+   "linea": 854,
    "pag_ini": 11,
    "pag_fin": 11
   },
   {
    "seccion": 14,
    "titulo": "## SECCIÓN 14: INFORMACIÓN RELATIVA AL TRANSPORTE",
-   "linea": 866,
+   "linea": 868,
    "pag_ini": 11,
+   "pag_fin": 12
+  },
+  {
+   "seccion": 15,
+   "titulo": "## SECCIÓN 15: INFORMACIÓN SOBRE LA REGLAMENTACIÓN 15.1 Disposiciones específicas sobre seguridad, salud y medio ambient",
+   "linea": 931,
+   "pag_ini": 12,
    "pag_fin": 12
   },
   {
    "seccion": 16,
    "titulo": "## SECCIÓN 16: OTRAS INFORMACIONES",
-   "linea": 961,
+   "linea": 965,
    "pag_ini": 12,
    "pag_fin": 14
   }
@@ -132,7 +146,7 @@
   "2": "OK",
   "3": "OK",
   "4": "OK",
-  "5": "FALLO_EXTRACCION",
+  "5": "REPARADO_ESTRUCTURA",
   "6": "OK",
   "7": "OK",
   "8": "OK",
@@ -142,7 +156,7 @@
   "12": "OK",
   "13": "OK",
   "14": "OK",
-  "15": "FALLO_EXTRACCION",
+  "15": "REPARADO_ESTRUCTURA",
   "16": "OK"
  },
  "imagenes": [
@@ -541,5 +555,23 @@
   "filas_tabla_fusionadas": 1,
   "imagenes_unicas": 34,
   "imagenes_decorativas_prob": 28
- }
+ },
+ "reparaciones": [
+  {
+   "tipo": "encabezado_en_linea",
+   "seccion": 5,
+   "linea": 223,
+   "pagina": 3,
+   "antes": ", de tratamiento especial: No relevante",
+   "titulo": "SECCIÓN 5: MEDIDAS DE LUCHA CONTRA INCENDIOS 5.1 Medios de extinción apropiados:"
+  },
+  {
+   "tipo": "encabezado_en_linea",
+   "seccion": 15,
+   "linea": 927,
+   "pagina": 12,
+   "antes": "POL 73/78 y al Código IBC: No relevante",
+   "titulo": "SECCIÓN 15: INFORMACIÓN SOBRE LA REGLAMENTACIÓN 15.1 Disposiciones específicas s"
+  }
+ ]
 }

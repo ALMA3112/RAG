@@ -179,7 +179,7 @@ def consolidar():
         pag_fin=next((x["pag_fin"] for x in m["secciones"] if x["seccion"] == s), None),
         titulo=next((x["titulo"] for x in m["secciones"] if x["seccion"] == s), None)) for m in metas for s in range(1, 17)])
     w("imagenes.csv", [{"id": m["id"], **{**i, "paginas": ",".join(map(str, i["paginas"]))}} for m in metas for i in m["imagenes"]])
-    w("qa_ingesta.csv", [dict(id=m["id"], **m["qa"], secciones_ok=sum(v == "OK" for v in m["estados"].values()),
+    w("qa_ingesta.csv", [dict(id=m["id"], **m["qa"], secciones_ok=sum(v in ("OK", "REPARADO_ESTRUCTURA") for v in m["estados"].values()),
         fallos_extraccion=[k for k, v in m["estados"].items() if v == "FALLO_EXTRACCION"],
         ausentes_original=[k for k, v in m["estados"].items() if v == "AUSENTE_EN_ORIGINAL"]) for m in metas])
     print(f"Consolidado: {len(metas)} documentos -> {MAN}")
