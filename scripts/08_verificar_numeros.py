@@ -5,7 +5,8 @@ Compara el multiconjunto de números (valores, porcentajes, CAS, códigos UN) de
  - Encabezados/pies del PDF: una línea corta se descarta si TODAS sus palabras aparecen en las primeras/últimas líneas de
    su página (modo layout). Docling elimina ese mobiliario a propósito; los títulos de sección nunca se descartan.
  - Markdown: se ignoran imágenes y comentarios.
-Una sección con recall bajo o CAS faltantes es candidata a revisión manual contra el PDF."""
+Nivel documento: un número del PDF que no aparece en NINGUNA parte del Markdown está PERDIDO; si falta en su sección pero
+está en otra, está REUBICADO (orden de lectura distinto). El recall ajustado solo penaliza lo perdido."""
 import re, json, csv, subprocess, importlib.util, pathlib
 from collections import Counter
 
@@ -20,18 +21,26 @@ def pdftxt(pdf, k, layout):
     return [l for l in subprocess.run(cmd, capture_output=True, text=True).stdout.splitlines() if l.strip()]
 
 PAGINADOR = re.compile(r"(?i)^\s*(?:p[aá]g(?:ina)?\.?\s*)?\d+\s*(?:/|de|of)\s*\d+\s*$")
-digits = lambda s: re.sub(r"\d+", "#", s).strip()
+CONTINUA = re.compile(r"(?i)^-?\s*contin[uú]a en la siguiente p[aá]gina\s*")
+DIGITO = re.compile(r"(?<![\w.,/-])\d(?![\w.,/-])")
 
 def lineas_pdf(pdf, n_pag):
     """[(texto, es_mobiliario)] en orden de lectura. Mobiliario (encabezados/pies que Docling elimina a propósito):
-    contadores de página ('3/12', 'Página 3 de 12') y líneas idénticas en >=60% de las páginas."""
+    contadores de página ('3/12'), líneas idénticas en >=60% de las páginas (tras quitar 'CONTINÚA EN LA SIGUIENTE PÁGINA'),
+    y dígitos sueltos de las primeras 6 líneas de la página (rombo NFPA del encabezado, p. ej. Tecnidecor)."""
     pages = [pdftxt(pdf, k, False) for k in range(1, n_pag + 1)]
-    exacta = Counter(l.strip() for p in pages for l in set(x.strip() for x in p))
+    limpia = lambda l: CONTINUA.sub("", l.strip())
+    exacta = Counter(limpia(x) for p in pages for x in {y for y in p})
     corte = max(3, 0.6 * n_pag); out = []
-    for p in pages:
-        for l in p:
-            t = l.strip(); entero_corto = re.fullmatch(r"\d{1,2}", t) is not None
-            mueble = bool(PAGINADOR.match(t)) or (exacta[t] >= corte and not entero_corto)
+    for k, p in enumerate(pages, 1):
+        zona = re.sub(r"(?i)p[aá]g\w*\.?\s*\d+(?:\s*(?:de|/|of)\s*\d+|\s+de\b)?", " ", " ".join(pdftxt(pdf, k, True)[:6]))   # el contador de página no son líneas sueltas
+        cab = Counter(DIGITO.findall(zona))
+        total_usado = False
+        for pos, l in enumerate(p):
+            t = limpia(l); entero_corto = re.fullmatch(r"\d{1,2}", t) is not None
+            mueble = t == "" or bool(PAGINADOR.match(t)) or (exacta[t] >= corte and not entero_corto)
+            if not mueble and re.fullmatch(r"\d", t) and cab[t] > 0: cab[t] -= 1; mueble = True
+            if not mueble and pos < 10 and t == str(n_pag) and len(t) == 1 and not total_usado: total_usado = True; mueble = True   # total de páginas suelto ("Página 1 de" / "4")
             out.append((l, mueble))
     return out
 
@@ -46,33 +55,50 @@ def trozos(lines, mueble=None):
         out[n] = "\n".join(lines[j] for j in range(i, fin) if j == i or not (mueble and mueble[j]))
     return out
 
-def comparar(t_pdf, t_md):
+def comparar(t_pdf, t_md, pool):
     a, b = Counter(NUM.findall(t_pdf)), Counter(NUM.findall(t_md)); falta, sobra = a - b, b - a
+    perdidos = Counter()
+    for t, c in falta.items():
+        usar = min(c, pool[t]); pool[t] -= usar
+        if usar: perdidos[t] = usar
     n = sum(a.values()); cas = set(CASN.findall(t_pdf)) - set(CASN.findall(t_md))
-    return dict(n_pdf=n, n_md=sum(b.values()), faltan=sum(falta.values()), sobran=sum(sobra.values()),
-                recall=round(1 - sum(falta.values()) / n, 3) if n else None, cas_faltan=" ".join(sorted(cas)),
+    return dict(n_pdf=n, n_md=sum(b.values()), faltan=sum(falta.values()), faltan_perdidos=sum(perdidos.values()), sobran=sum(sobra.values()),
+                recall=round(1 - sum(falta.values()) / n, 3) if n else None,
+                recall_ajustado=round(1 - sum(perdidos.values()) / n, 3) if n else None, cas_faltan=" ".join(sorted(cas)),
                 faltan_ej=" ".join(f"{t}x{c}" if c > 1 else t for t, c in falta.most_common(8)),
-                sobran_ej=" ".join(f"{t}x{c}" if c > 1 else t for t, c in sobra.most_common(8)))
+                perdidos_ej=" ".join(f"{t}x{c}" if c > 1 else t for t, c in perdidos.most_common(8)), perdidos=perdidos)
+
+def tipo(t):
+    return "digito_suelto" if re.fullmatch(r"\d", t) else "anio" if re.fullmatch(r"(19|20)\d\d", t) else "decimal" if re.search(r"[.,]", t) else "otro"
 
 def main():
-    filas = []
+    filas, docs, por_tipo, por_sec = [], [], Counter(), Counter()
     for meta_f in sorted(ing.OUT.glob("FDS_*/meta.json")):
         m = json.loads(meta_f.read_text(encoding="utf-8")); md_f = meta_f.parent / m["md"]
-        lp = lineas_pdf(pathlib.Path(m["ruta_pdf"]), m["paginas_pdf"])
-        sp = trozos([t for t, _ in lp], [e for _, e in lp]); sm = trozos(lineas_md(md_f.read_text(encoding="utf-8")))
+        lp = lineas_pdf(pathlib.Path(m["ruta_pdf"]), m["paginas_pdf"]); mdl = lineas_md(md_f.read_text(encoding="utf-8"))
+        sp = trozos([t for t, _ in lp], [e for _, e in lp]); sm = trozos(mdl)
+        pdf_all = Counter(NUM.findall("\n".join(t for t, e in lp if not e))); md_all = Counter(NUM.findall("\n".join(mdl)))
+        pool = pdf_all - md_all                                   # perdidos a nivel documento (no están en ninguna parte)
         for s in range(1, 17):
-            if s in sp and s in sm: filas.append(dict(id=m["id"], seccion=s, **comparar(sp[s], sm[s])))
+            if s in sp and s in sm:
+                r = comparar(sp[s], sm[s], pool); por_tipo.update({tipo(t): c for t, c in r["perdidos"].items()})
+                por_sec[s] += sum(r["perdidos"].values()); r.pop("perdidos"); filas.append(dict(id=m["id"], seccion=s, **r))
             else: filas.append(dict(id=m["id"], seccion=s, nota="seccion_no_detectada_en_" + ("pdf" if s not in sp else "md")))
-    cols = ["id", "seccion", "n_pdf", "n_md", "faltan", "sobran", "recall", "cas_faltan", "faltan_ej", "sobran_ej", "nota"]
-    with open(ing.MAN / "verificacion_numerica.csv", "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=cols); w.writeheader(); w.writerows([{c: r.get(c) for c in cols} for r in filas])
-    ok = [r for r in filas if r.get("recall") is not None]
-    tp, fl = sum(r["n_pdf"] for r in ok), sum(r["faltan"] for r in ok)
-    bajos = sorted([r for r in ok if r["recall"] < UMBRAL], key=lambda r: (r["recall"], -r["faltan"]))
-    print(f"documentos: {len({r['id'] for r in filas})} | secciones comparadas: {len(ok)} | números en PDF: {tp} | faltan en md: {fl} (recall global {1 - fl / tp:.4f})")
-    print(f"secciones con recall < {UMBRAL}: {len(bajos)} en {len({r['id'] for r in bajos})} docs | con CAS faltantes: {len([r for r in ok if r['cas_faltan']])}")
+        n_pdf, perd = sum(pdf_all.values()), sum((pdf_all - md_all).values())
+        docs.append(dict(id=m["id"], n_pdf=n_pdf, perdidos=perd, recall_doc=round(1 - perd / n_pdf, 4) if n_pdf else None,
+                         perdidos_ej=" ".join(f"{t}x{c}" if c > 1 else t for t, c in (pdf_all - md_all).most_common(12))))
+    cols = ["id", "seccion", "n_pdf", "n_md", "faltan", "faltan_perdidos", "sobran", "recall", "recall_ajustado", "cas_faltan", "faltan_ej", "perdidos_ej", "nota"]
+    for nombre, c, datos in (("verificacion_numerica.csv", cols, filas), ("verificacion_documentos.csv", list(docs[0].keys()), docs)):
+        with open(ing.MAN / nombre, "w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=c); w.writeheader(); w.writerows([{k: r.get(k) for k in c} for r in datos])
+    ok = [r for r in filas if r.get("recall") is not None]; tp = sum(d["n_pdf"] for d in docs); tl = sum(d["perdidos"] for d in docs)
+    sec_bajas = [r for r in ok if r["recall_ajustado"] < UMBRAL]; sec_reub = [r for r in ok if r["recall"] < UMBRAL <= r["recall_ajustado"]]
+    print(f"documentos: {len(docs)} | números del PDF (sin encabezados/pies): {tp} | perdidos (no están en ninguna parte del md): {tl} -> recall de documento {1 - tl / tp:.4f}")
+    print(f"secciones con recall < {UMBRAL} por orden de lectura distinto (texto REUBICADO, no perdido): {len(sec_reub)} | por pérdida real: {len(sec_bajas)} en {len({r['id'] for r in sec_bajas})} docs | CAS faltantes: {len([r for r in ok if r['cas_faltan']])}")
+    print("perdidos por tipo:", dict(por_tipo), "| por sección:", dict(sorted(por_sec.items(), key=lambda kv: -kv[1])[:6]))
     print("sin sección detectable:", [(r['id'], r['seccion']) for r in filas if r.get('nota')])
-    for r in sorted(bajos, key=lambda r: -r["faltan"])[:15]: print(f"  {r['id']} §{r['seccion']}: recall {r['recall']} ({r['faltan']}/{r['n_pdf']} faltan) | faltan: {r['faltan_ej']}")
+    print("documentos con más números perdidos:")
+    for d in sorted(docs, key=lambda d: -d["perdidos"])[:12]: print(f"  {d['id']}: {d['perdidos']}/{d['n_pdf']} perdidos (recall {d['recall_doc']}) | {d['perdidos_ej']}")
 
 if __name__ == "__main__":
     main()
