@@ -1,0 +1,77 @@
+id,token,faltan,candidatas,clase,tipo,seccion,pagina,linea_pdf
+FDS_001,0,2,6,caja_NFPA_HMIS,digito_suelto,3,1,Rótulo NFPA: 1-0-0
+FDS_001,1,1,7,caja_NFPA_HMIS,digito_suelto,3,1,Rótulo NFPA: 1-0-0
+FDS_002,0,1,1,caja_NFPA_HMIS,digito_suelto,3,1,0
+FDS_002,1,1,4,caja_NFPA_HMIS,digito_suelto,3,1,1
+FDS_003,0,1,2,caja_NFPA_HMIS,digito_suelto,3,1,0
+FDS_003,2,2,5,caja_NFPA_HMIS,digito_suelto,3,1,2
+FDS_003,3,2,5,caja_NFPA_HMIS,digito_suelto,3,1,3. IDENTIFICACIÓN DE RIESGOS
+FDS_004,0,1,3,caja_NFPA_HMIS,digito_suelto,3,1,0
+FDS_004,2,1,8,caja_NFPA_HMIS,digito_suelto,3,1,2
+FDS_004,3,1,7,caja_NFPA_HMIS,digito_suelto,3,1,3
+FDS_009,0,1,3,caja_NFPA_HMIS,digito_suelto,3,1,Reactividad 0 - Riesgo mínimo
+FDS_009,1,1,5,caja_NFPA_HMIS,digito_suelto,3,1,Inflamabilidad 1 - Riesgo moderado
+FDS_009,2,1,8,caja_NFPA_HMIS,digito_suelto,2,1,11138-66-2
+FDS_011,9,1,4,caja_NFPA_HMIS,digito_suelto,14,8,Ver epígrafe 9
+FDS_013,0,2,4,caja_NFPA_HMIS,digito_suelto,3,1,Rótulo NFPA: 1-0-0
+FDS_013,1,1,6,caja_NFPA_HMIS,digito_suelto,3,1,Rótulo NFPA: 1-0-0
+FDS_015,0,1,3,caja_NFPA_HMIS,digito_suelto,3,1,Reactividad 0.
+FDS_015,1,1,7,caja_NFPA_HMIS,digito_suelto,3,1,Salud 1 Inflamabilidad 3
+FDS_015,3,2,8,caja_NFPA_HMIS,digito_suelto,3,1,Salud 1 Inflamabilidad 3
+FDS_016,0,1,2,caja_NFPA_HMIS,digito_suelto,3,1,0
+FDS_016,1,1,4,caja_NFPA_HMIS,digito_suelto,3,1,1
+FDS_016,2,1,7,caja_NFPA_HMIS,digito_suelto,3,1,2
+FDS_017,0,2,5,caja_NFPA_HMIS,digito_suelto,3,1,0
+FDS_017,3,2,7,caja_NFPA_HMIS,digito_suelto,3,1,3
+FDS_023,0,2,4,caja_NFPA_HMIS,digito_suelto,16,13,0
+FDS_023,3,1,20,caja_NFPA_HMIS,digito_suelto,16,13,3
+FDS_023,4,1,7,caja_NFPA_HMIS,digito_suelto,16,13,"Precaución: Las clasificaciones de HMIS® se basan en una escala de clasificación del 0 al 4, donde 0 represent"
+FDS_024,0,1,2,caja_NFPA_HMIS,digito_suelto,16,13,0
+FDS_024,2,1,17,caja_NFPA_HMIS,digito_suelto,2,1,SECCIÓN 2: Identificación de los peligros
+FDS_024,3,1,19,caja_NFPA_HMIS,digito_suelto,2,1,IRRITACIÓN CUTÁNEA - Categoría 3
+FDS_025,0,2,3,caja_NFPA_HMIS,digito_suelto,15,14,0
+FDS_025,2,1,13,caja_NFPA_HMIS,digito_suelto,2,1,SECCIÓN 2: Identificación de los peligros
+FDS_025,4,1,18,caja_NFPA_HMIS,digito_suelto,2,1,TOXICIDAD AGUDA (inhalación) - Categoría 4
+FDS_029,2396,1,1,otro,otro,2,1,Dioxido de titanio; Mezcla de: 5-cloro-2-metil-2H-isotiazol-3-ona [EC no. 247-500-7] y 2-metil-2H-isotiazol-3-
+FDS_050,10.5,1,3,otro,decimal,7,4,"Evitar fuentes de calor, radiación, electricidad estática y el contacto con alimentos. Para información adicio"
+FDS_055,1584,1,1,otro,otro,8,5,"NOMATIVIDAD APLICABLE: NTC 1584, NTC 1589, NTC 3851 y NTC 1728."
+FDS_055,1589,1,1,otro,otro,8,5,"NOMATIVIDAD APLICABLE: NTC 1584, NTC 1589, NTC 3851 y NTC 1728."
+FDS_055,1728,1,1,otro,otro,8,5,"NOMATIVIDAD APLICABLE: NTC 1584, NTC 1589, NTC 3851 y NTC 1728."
+FDS_055,3,2,40,caja_NFPA_HMIS,digito_suelto,2,1,"Acuático agudo. 3: Peligrosidad aguda para el medio ambiente acuático, Categoría 3, H402"
+FDS_055,3851,1,1,otro,otro,8,5,"NOMATIVIDAD APLICABLE: NTC 1584, NTC 1589, NTC 3851 y NTC 1728."
+FDS_058,9.2,1,1,caja_NFPA_HMIS,decimal,9,7,9.2
+FDS_060,50,1,51,otro,otro,8,5,50 ppm
+FDS_069,0,2,3,caja_NFPA_HMIS,digito_suelto,16,13,0
+FDS_069,2,1,12,caja_NFPA_HMIS,digito_suelto,2,1,SECCIÓN 2. IDENTIFICACIÓN DE LOS PELIGROS
+FDS_069,3,2,16,caja_NFPA_HMIS,digito_suelto,2,1,: Categoría 3
+FDS_070,0,2,6,caja_NFPA_HMIS,digito_suelto,8,6,822-06-0
+FDS_070,13,1,3,otro,otro,6,5,sección 13).
+FDS_070,2,3,10,caja_NFPA_HMIS,digito_suelto,1,1,: Catalizador para 2 Comp. Sellantes/Adhesivos
+FDS_070,3,1,12,caja_NFPA_HMIS,digito_suelto,2,1,: Categoría 3
+FDS_070,6,1,2,otro,digito_suelto,6,5,SECCIÓN 6. MEDIDAS QUE DEBEN TOMARSE EN CASO DE DERRAME ACCIDENTAL O FUGA
+FDS_071,0,2,3,caja_NFPA_HMIS,digito_suelto,16,12,0
+FDS_071,2,1,17,caja_NFPA_HMIS,digito_suelto,2,1,SECCIÓN 2. IDENTIFICACIÓN DE LOS PELIGROS
+FDS_071,3,2,16,caja_NFPA_HMIS,digito_suelto,2,1,: Categoría 3
+FDS_072,0,2,3,caja_NFPA_HMIS,digito_suelto,16,11,0
+FDS_072,2,1,10,caja_NFPA_HMIS,digito_suelto,2,1,SECCIÓN 2. IDENTIFICACIÓN DE LOS PELIGROS
+FDS_072,3,3,13,caja_NFPA_HMIS,digito_suelto,2,1,: Categoría 3
+FDS_073,0,2,3,caja_NFPA_HMIS,digito_suelto,16,10,0
+FDS_073,11,1,3,caja_NFPA_HMIS,otro,4,3,Vea la Sección 11 para obtener información detallada sobre la
+FDS_073,1618,1,1,otro,otro,3,3,"ácidos grasos, C14-18 e insaturados de C1618, tratados con ácido maleico"
+FDS_073,2,4,13,caja_NFPA_HMIS,digito_suelto,2,1,SECCIÓN 2. IDENTIFICACIÓN DE LOS PELIGROS
+FDS_073,3,1,3,caja_NFPA_HMIS,digito_suelto,16,10,3
+FDS_074,0,2,5,caja_NFPA_HMIS,digito_suelto,8,5,1477-55-0
+FDS_074,1,1,11,caja_NFPA_HMIS,digito_suelto,16,12,1
+FDS_074,12,2,3,otro,otro,2,2,P333 + P313 En caso de irritación cutánea o sarpullido: consul2 / 12
+FDS_074,2,1,11,caja_NFPA_HMIS,digito_suelto,9,7,2 hPa
+FDS_074,3,1,11,caja_NFPA_HMIS,digito_suelto,8,5,91-20-3
+FDS_074,5,1,6,otro,digito_suelto,3,3,64742-94-5
+FDS_086,0,2,3,caja_NFPA_HMIS,digito_suelto,16,9,0
+FDS_086,1,2,10,caja_NFPA_HMIS,digito_suelto,16,9,1
+FDS_086,2,2,7,caja_NFPA_HMIS,digito_suelto,16,9,2
+FDS_087,0,2,3,caja_NFPA_HMIS,digito_suelto,16,12,0
+FDS_087,13,1,3,otro,otro,2,2,"P370 + P378 En caso de incendio: Utilizar arena seca, producto químico seco o espuma resistente al alcohol par"
+FDS_087,2,2,11,caja_NFPA_HMIS,digito_suelto,2,1,SECCIÓN 2. IDENTIFICACIÓN DE LOS PELIGROS
+FDS_087,3,2,10,caja_NFPA_HMIS,digito_suelto,16,12,3
+FDS_090,50,1,23,otro,otro,9,5,Presión de vapor a 50 ºC:
+FDS_094,10,1,18,caja_NFPA_HMIS,otro,7,4,la seguridad y salud de los trabajadores. Consultar la sección 10 de la FDS sobre condiciones y materias que d
